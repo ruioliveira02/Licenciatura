@@ -1,0 +1,1894 @@
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 1 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.2600     (Insuf)    1.9154     2.8331          9    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000          9    
+Porta.WaitTime                              2.8734     (Insuf)    1.4855     3.9777          9    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000          9    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000          9    
+Porta.TotalTime                             2.8412     (Insuf)    1.7265     3.3578          9    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .01426     (Insuf)    .00000     .09862          9    
+Montar Porta.Queue.WaitingTime              .05591     (Insuf)    .00000     .21538         49    
+Pintar Porta.Queue.WaitingTime              .03672     (Insuf)    .00000     .20552         49    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000          9    
+Juntar Chassis e Portas.Queue2.WaitingTime  1.9904     (Insuf)    .92132     2.5400          9    
+Juntar Portas.Queue.WaitingTime             .14594     (Insuf)    .00000     .64413         46    
+Montar Chassis.Queue.WaitingTime            .25682     (Insuf)    .00000     .72000          9    
+Pintar Chassis.Queue.WaitingTime            .07089     (Insuf)    .00000     .19889          9    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   34.204     (Insuf)    18.000     54.000     54.000    
+Chassis.WIP                                 2.1435     (Insuf)    .00000     5.0000     2.0000    
+OpChassis.NumberBusy                        1.0567     (Insuf)    .00000     2.0000     2.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .52838     (Insuf)    .00000     1.0000     1.0000    
+OpPortas.NumberBusy                         1.5188     (Insuf)    .00000     2.0000     .00000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .75943     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberBusy                          .25028     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .25028     (Insuf)    .00000     1.0000     .00000    
+PintorPo.NumberBusy                         1.8158     (Insuf)    .00000     3.0000     3.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .60529     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberBusy                           .32352     (Insuf)    .00000     1.0000     .00000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .32352     (Insuf)    .00000     1.0000     .00000    
+Mesclar Carrocaria.Queue.NumberInQueue      .02139     (Insuf)    .00000     1.0000     .00000    
+Montar Porta.Queue.NumberInQueue            .45662     (Insuf)    .00000     3.0000     .00000    
+Pintar Porta.Queue.NumberInQueue            .30762     (Insuf)    .00000     3.0000     2.0000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  8.1802     (Insuf)    3.0000     14.000     14.000    
+Juntar Portas.Queue.NumberInQueue           1.2260     (Insuf)    .00000     4.0000     3.0000    
+Montar Chassis.Queue.NumberInQueue          .38523     (Insuf)    .00000     2.0000     .00000    
+Pintar Chassis.Queue.NumberInQueue          .10634     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              77.000    
+Porta.NumberOut                             42.000    
+Chassis.NumberIn                            9.0000    
+Chassis.NumberOut                           9.0000    
+OpChassis.NumberSeized                      9.0000    
+OpChassis.ScheduledUtilization              .52838    
+OpPortas.NumberSeized                       49.000    
+OpPortas.ScheduledUtilization               .75943    
+OpFinal.NumberSeized                        9.0000    
+OpFinal.ScheduledUtilization                .25028    
+PintorPo.NumberSeized                       49.000    
+PintorPo.ScheduledUtilization               .60529    
+PintCh.NumberSeized                         9.0000    
+PintCh.ScheduledUtilization                 .32352    
+System.NumberOut                            9.0000    
+
+Beginning replication 2 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 2 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.3199     (Insuf)    1.9115     2.7919          9    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000          9    
+Porta.WaitTime                              2.6962     (Insuf)    1.7988     4.4808          9    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000          9    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000          9    
+Porta.TotalTime                             2.8573     (Insuf)    2.0713     4.1556          9    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          9    
+Montar Porta.Queue.WaitingTime              .05947     (Insuf)    .00000     .20759         51    
+Pintar Porta.Queue.WaitingTime              .03700     (Insuf)    .00000     .30641         52    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000          9    
+Juntar Chassis e Portas.Queue2.WaitingTime  1.9143     (Insuf)    1.0511     3.2584          9    
+Juntar Portas.Queue.WaitingTime             .18134     (Insuf)    .00000     .94051         52    
+Montar Chassis.Queue.WaitingTime            .01947     (Insuf)    .00000     .19473         10    
+Pintar Chassis.Queue.WaitingTime            .00915     (Insuf)    .00000     .09153         10    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   30.597     (Insuf)    8.0000     47.000     44.000    
+Chassis.WIP                                 1.9379     (Insuf)    1.0000     4.0000     2.0000    
+OpChassis.NumberBusy                        1.2864     (Insuf)    .00000     2.0000     2.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .64325     (Insuf)    .00000     1.0000     1.0000    
+OpPortas.NumberBusy                         1.5434     (Insuf)    .00000     2.0000     2.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .77172     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberBusy                          .25221     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .25221     (Insuf)    .00000     1.0000     .00000    
+PintorPo.NumberBusy                         1.8708     (Insuf)    .00000     3.0000     1.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .62361     (Insuf)    .00000     1.0000     .33333    
+PintCh.NumberBusy                           .35151     (Insuf)    .00000     1.0000     .00000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .35151     (Insuf)    .00000     1.0000     .00000    
+Mesclar Carrocaria.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Montar Porta.Queue.NumberInQueue            .50780     (Insuf)    .00000     3.0000     1.0000    
+Pintar Porta.Queue.NumberInQueue            .32070     (Insuf)    .00000     5.0000     .00000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  6.3815     (Insuf)    1.0000     11.000     11.000    
+Juntar Portas.Queue.NumberInQueue           1.4658     (Insuf)    .00000     4.0000     1.0000    
+Montar Chassis.Queue.NumberInQueue          .03245     (Insuf)    .00000     1.0000     .00000    
+Pintar Chassis.Queue.NumberInQueue          .01525     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              80.000    
+Porta.NumberOut                             44.000    
+Chassis.NumberIn                            10.000    
+Chassis.NumberOut                           9.0000    
+OpChassis.NumberSeized                      10.000    
+OpChassis.ScheduledUtilization              .64325    
+OpPortas.NumberSeized                       51.000    
+OpPortas.ScheduledUtilization               .77172    
+OpFinal.NumberSeized                        9.0000    
+OpFinal.ScheduledUtilization                .25221    
+PintorPo.NumberSeized                       52.000    
+PintorPo.ScheduledUtilization               .62361    
+PintCh.NumberSeized                         10.000    
+PintCh.ScheduledUtilization                 .35151    
+System.NumberOut                            9.0000    
+
+Beginning replication 3 of 20
+SIMAN Run Controller.
+
+2.8333731 Hours>
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 3 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.1686     (Insuf)    1.8500     2.7990         10    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         10    
+Porta.WaitTime                              3.3257     (Insuf)    1.3168     6.0143         10    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         10    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         10    
+Porta.TotalTime                             3.1383     (Insuf)    1.5349     5.3080         10    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .00428     (Insuf)    .00000     .04284         10    
+Montar Porta.Queue.WaitingTime              .14922     (Insuf)    .00000     .43171         53    
+Pintar Porta.Queue.WaitingTime              .02214     (Insuf)    .00000     .28130         49    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         10    
+Juntar Chassis e Portas.Queue2.WaitingTime  2.3717     (Insuf)    .80851     4.2055         10    
+Juntar Portas.Queue.WaitingTime             .11589     (Insuf)    .00000     .45917         52    
+Montar Chassis.Queue.WaitingTime            .12359     (Insuf)    .00000     .37717         10    
+Pintar Chassis.Queue.WaitingTime            .07894     (Insuf)    .00000     .19205         12    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   41.668     (Insuf)    20.000     63.000     60.000    
+Chassis.WIP                                 2.4794     (Insuf)    .00000     6.0000     5.0000    
+OpChassis.NumberBusy                        1.3023     (Insuf)    .00000     2.0000     2.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .65118     (Insuf)    .00000     1.0000     1.0000    
+OpPortas.NumberBusy                         1.6104     (Insuf)    .00000     2.0000     2.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .80522     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberBusy                          .30315     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .30315     (Insuf)    .00000     1.0000     1.0000    
+PintorPo.NumberBusy                         1.8000     (Insuf)    .00000     3.0000     2.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .60002     (Insuf)    .00000     1.0000     .66667    
+PintCh.NumberBusy                           .45090     (Insuf)    .00000     1.0000     .00000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .45090     (Insuf)    .00000     1.0000     .00000    
+Mesclar Carrocaria.Queue.NumberInQueue      .00714     (Insuf)    .00000     1.0000     .00000    
+Montar Porta.Queue.NumberInQueue            1.2716     (Insuf)    .00000     5.0000     .00000    
+Pintar Porta.Queue.NumberInQueue            .12217     (Insuf)    .00000     3.0000     .00000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  10.682     (Insuf)    3.0000     18.000     17.000    
+Juntar Portas.Queue.NumberInQueue           1.0280     (Insuf)    .00000     4.0000     1.0000    
+Montar Chassis.Queue.NumberInQueue          .25802     (Insuf)    .00000     2.0000     2.0000    
+Pintar Chassis.Queue.NumberInQueue          .15787     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              80.000    
+Porta.NumberOut                             46.000    
+Chassis.NumberIn                            12.000    
+Chassis.NumberOut                           10.000    
+OpChassis.NumberSeized                      10.000    
+OpChassis.ScheduledUtilization              .65118    
+OpPortas.NumberSeized                       53.000    
+OpPortas.ScheduledUtilization               .80522    
+OpFinal.NumberSeized                        10.000    
+OpFinal.ScheduledUtilization                .30315    
+PintorPo.NumberSeized                       49.000    
+PintorPo.ScheduledUtilization               .60002    
+PintCh.NumberSeized                         12.000    
+PintCh.ScheduledUtilization                 .45090    
+System.NumberOut                            10.000    
+
+Beginning replication 4 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 4 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.0302     (Insuf)    1.8379     2.8524         15    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         15    
+Porta.WaitTime                              2.7617     (Insuf)    1.4107     4.1624         15    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         15    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         15    
+Porta.TotalTime                             2.6159     (Insuf)    1.8845     3.6698         15    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000         15    
+Montar Porta.Queue.WaitingTime              .04424     (Insuf)    .00000     .14843         55    
+Pintar Porta.Queue.WaitingTime              .01841     (Insuf)    .00000     .24415         56    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         15    
+Juntar Chassis e Portas.Queue2.WaitingTime  1.7622     (Insuf)    .94795     2.9109         15    
+Juntar Portas.Queue.WaitingTime             .15064     (Insuf)    .00000     .49000         54    
+Montar Chassis.Queue.WaitingTime            .47792     (Insuf)    .00000     .92969         16    
+Pintar Chassis.Queue.WaitingTime            .08737     (Insuf)    .00000     .34089         15    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   30.052     (Insuf)    12.000     46.000     42.000    
+Chassis.WIP                                 4.4692     (Insuf)    2.0000     6.0000     2.0000    
+OpChassis.NumberBusy                        1.9822     (Insuf)    1.0000     2.0000     2.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .99111     (Insuf)    .50000     1.0000     1.0000    
+OpPortas.NumberBusy                         1.6994     (Insuf)    .00000     2.0000     2.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .84970     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberBusy                          .42665     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .42665     (Insuf)    .00000     1.0000     .00000    
+PintorPo.NumberBusy                         2.0325     (Insuf)    .00000     3.0000     2.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .67750     (Insuf)    .00000     1.0000     .66667    
+PintCh.NumberBusy                           .56750     (Insuf)    .00000     1.0000     .00000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .56750     (Insuf)    .00000     1.0000     .00000    
+Mesclar Carrocaria.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Montar Porta.Queue.NumberInQueue            .40556     (Insuf)    .00000     3.0000     .00000    
+Pintar Porta.Queue.NumberInQueue            .17179     (Insuf)    .00000     4.0000     .00000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  6.6446     (Insuf)    2.0000     10.000     10.000    
+Juntar Portas.Queue.NumberInQueue           1.3657     (Insuf)    .00000     4.0000     2.0000    
+Montar Chassis.Queue.NumberInQueue          1.2744     (Insuf)    .00000     3.0000     .00000    
+Pintar Chassis.Queue.NumberInQueue          .21843     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              94.000    
+Porta.NumberOut                             64.000    
+Chassis.NumberIn                            15.000    
+Chassis.NumberOut                           15.000    
+OpChassis.NumberSeized                      16.000    
+OpChassis.ScheduledUtilization              .99111    
+OpPortas.NumberSeized                       55.000    
+OpPortas.ScheduledUtilization               .84970    
+OpFinal.NumberSeized                        15.000    
+OpFinal.ScheduledUtilization                .42665    
+PintorPo.NumberSeized                       56.000    
+PintorPo.ScheduledUtilization               .67750    
+PintCh.NumberSeized                         15.000    
+PintCh.ScheduledUtilization                 .56750    
+System.NumberOut                            15.000    
+
+Beginning replication 5 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 5 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.1596     (Insuf)    1.8196     2.7960         14    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         14    
+Porta.WaitTime                              2.3453     (Insuf)    1.4282     3.5197         14    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         14    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         14    
+Porta.TotalTime                             2.1612     (Insuf)    1.5474     3.1780         14    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .00518     (Insuf)    .00000     .04446         13    
+Montar Porta.Queue.WaitingTime              .10635     (Insuf)    .00000     .30697         55    
+Pintar Porta.Queue.WaitingTime              .04787     (Insuf)    .00000     .29051         60    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         13    
+Juntar Chassis e Portas.Queue2.WaitingTime  1.1977     (Insuf)    .68191     2.0047         13    
+Juntar Portas.Queue.WaitingTime             .15445     (Insuf)    .00000     .79114         54    
+Montar Chassis.Queue.WaitingTime            .48123     (Insuf)    .00000     1.0165         12    
+Pintar Chassis.Queue.WaitingTime            .08955     (Insuf)    .00000     .42749         11    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   24.936     (Insuf)    9.0000     49.000     49.000    
+Chassis.WIP                                 3.5038     (Insuf)    1.0000     7.0000     2.0000    
+OpChassis.NumberBusy                        1.6719     (Insuf)    1.0000     2.0000     1.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .83599     (Insuf)    .50000     1.0000     .50000    
+OpPortas.NumberBusy                         1.6650     (Insuf)    .00000     2.0000     2.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .83254     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberBusy                          .35409     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .35409     (Insuf)    .00000     1.0000     .00000    
+PintorPo.NumberBusy                         2.0823     (Insuf)    .00000     3.0000     3.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .69413     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberBusy                           .42322     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .42322     (Insuf)    .00000     1.0000     1.0000    
+Mesclar Carrocaria.Queue.NumberInQueue      .01123     (Insuf)    .00000     1.0000     .00000    
+Montar Porta.Queue.NumberInQueue            1.0325     (Insuf)    .00000     4.0000     3.0000    
+Pintar Porta.Queue.NumberInQueue            .47869     (Insuf)    .00000     4.0000     .00000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  4.9546     (Insuf)    1.0000     12.000     12.000    
+Juntar Portas.Queue.NumberInQueue           1.3936     (Insuf)    .00000     4.0000     1.0000    
+Montar Chassis.Queue.NumberInQueue          .93902     (Insuf)    .00000     3.0000     .00000    
+Pintar Chassis.Queue.NumberInQueue          .10435     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              95.000    
+Porta.NumberOut                             64.000    
+Chassis.NumberIn                            10.000    
+Chassis.NumberOut                           14.000    
+OpChassis.NumberSeized                      12.000    
+OpChassis.ScheduledUtilization              .83599    
+OpPortas.NumberSeized                       55.000    
+OpPortas.ScheduledUtilization               .83254    
+OpFinal.NumberSeized                        13.000    
+OpFinal.ScheduledUtilization                .35409    
+PintorPo.NumberSeized                       60.000    
+PintorPo.ScheduledUtilization               .69413    
+PintCh.NumberSeized                         11.000    
+PintCh.ScheduledUtilization                 .42322    
+System.NumberOut                            14.000    
+
+Beginning replication 6 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 6 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.0174     (Insuf)    1.8263     2.7612         10    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         10    
+Porta.WaitTime                              2.5223     (Insuf)    .27601     5.4422         10    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         10    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         10    
+Porta.TotalTime                             2.7317     (Insuf)    1.0972     5.0062         10    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .01900     (Insuf)    .00000     .09408          9    
+Montar Porta.Queue.WaitingTime              .12693     (Insuf)    .00000     .34305         52    
+Pintar Porta.Queue.WaitingTime              .05588     (Insuf)    .00000     .25851         55    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000          9    
+Juntar Chassis e Portas.Queue2.WaitingTime  1.9442     (Insuf)    .11340     3.8110          9    
+Juntar Portas.Queue.WaitingTime             .15396     (Insuf)    .00000     .66500         52    
+Montar Chassis.Queue.WaitingTime            .13961     (Insuf)    .00000     .67105          9    
+Pintar Chassis.Queue.WaitingTime            .08675     (Insuf)    .00000     .34024         10    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   33.190     (Insuf)    7.0000     58.000     58.000    
+Chassis.WIP                                 2.2062     (Insuf)    .00000     5.0000     5.0000    
+OpChassis.NumberBusy                        1.1098     (Insuf)    .00000     2.0000     2.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .55490     (Insuf)    .00000     1.0000     1.0000    
+OpPortas.NumberBusy                         1.5682     (Insuf)    .00000     2.0000     2.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .78413     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberBusy                          .25074     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .25074     (Insuf)    .00000     1.0000     .00000    
+PintorPo.NumberBusy                         1.9547     (Insuf)    .00000     3.0000     3.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .65157     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberBusy                           .37261     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .37261     (Insuf)    .00000     1.0000     1.0000    
+Mesclar Carrocaria.Queue.NumberInQueue      .02850     (Insuf)    .00000     1.0000     .00000    
+Montar Porta.Queue.NumberInQueue            1.1504     (Insuf)    .00000     4.0000     3.0000    
+Pintar Porta.Queue.NumberInQueue            .52731     (Insuf)    .00000     4.0000     1.0000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  7.8541     (Insuf)    .00000     15.000     15.000    
+Juntar Portas.Queue.NumberInQueue           1.3343     (Insuf)    .00000     4.0000     .00000    
+Montar Chassis.Queue.NumberInQueue          .20942     (Insuf)    .00000     2.0000     .00000    
+Pintar Chassis.Queue.NumberInQueue          .23513     (Insuf)    .00000     2.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              88.000    
+Porta.NumberOut                             42.000    
+Chassis.NumberIn                            12.000    
+Chassis.NumberOut                           10.000    
+OpChassis.NumberSeized                      9.0000    
+OpChassis.ScheduledUtilization              .55490    
+OpPortas.NumberSeized                       52.000    
+OpPortas.ScheduledUtilization               .78413    
+OpFinal.NumberSeized                        9.0000    
+OpFinal.ScheduledUtilization                .25074    
+PintorPo.NumberSeized                       55.000    
+PintorPo.ScheduledUtilization               .65157    
+PintCh.NumberSeized                         10.000    
+PintCh.ScheduledUtilization                 .37261    
+System.NumberOut                            10.000    
+
+Beginning replication 7 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 7 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.2599     (Insuf)    1.8983     2.8244         11    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         11    
+Porta.WaitTime                              1.6594     (Insuf)    .54670     3.3154         11    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         11    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         11    
+Porta.TotalTime                             1.8380     (Insuf)    1.1295     3.0594         11    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        3.2492E-05 (Insuf)    .00000     3.5742E-04     11    
+Montar Porta.Queue.WaitingTime              .14491     (Insuf)    .00000     .39088         51    
+Pintar Porta.Queue.WaitingTime              .04778     (Insuf)    .00000     .37150         54    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         11    
+Juntar Chassis e Portas.Queue2.WaitingTime  .91474     (Insuf)    .29285     1.9438         11    
+Juntar Portas.Queue.WaitingTime             .12013     (Insuf)    .00000     .53531         48    
+Montar Chassis.Queue.WaitingTime            .11053     (Insuf)    .00000     .34020          9    
+Pintar Chassis.Queue.WaitingTime            .00781     (Insuf)    .00000     .03786          9    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   21.885     (Insuf)    5.0000     41.000     41.000    
+Chassis.WIP                                 1.9835     (Insuf)    .00000     5.0000     1.0000    
+OpChassis.NumberBusy                        1.2102     (Insuf)    .00000     2.0000     .00000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .60511     (Insuf)    .00000     1.0000     .00000    
+OpPortas.NumberBusy                         1.5207     (Insuf)    .00000     2.0000     2.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .76036     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberBusy                          .30107     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .30107     (Insuf)    .00000     1.0000     .00000    
+PintorPo.NumberBusy                         1.9714     (Insuf)    .00000     3.0000     3.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .65715     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberBusy                           .33580     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .33580     (Insuf)    .00000     1.0000     1.0000    
+Mesclar Carrocaria.Queue.NumberInQueue      5.9569E-05 (Insuf)    .00000     1.0000     .00000    
+Montar Porta.Queue.NumberInQueue            1.2508     (Insuf)    .00000     5.0000     1.0000    
+Pintar Porta.Queue.NumberInQueue            .45243     (Insuf)    .00000     6.0000     1.0000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  3.7100     (Insuf)    1.0000     9.0000     9.0000    
+Juntar Portas.Queue.NumberInQueue           .99429     (Insuf)    .00000     4.0000     1.0000    
+Montar Chassis.Queue.NumberInQueue          .12467     (Insuf)    .00000     2.0000     .00000    
+Pintar Chassis.Queue.NumberInQueue          .01172     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              83.000    
+Porta.NumberOut                             52.000    
+Chassis.NumberIn                            9.0000    
+Chassis.NumberOut                           11.000    
+OpChassis.NumberSeized                      9.0000    
+OpChassis.ScheduledUtilization              .60511    
+OpPortas.NumberSeized                       51.000    
+OpPortas.ScheduledUtilization               .76036    
+OpFinal.NumberSeized                        11.000    
+OpFinal.ScheduledUtilization                .30107    
+PintorPo.NumberSeized                       54.000    
+PintorPo.ScheduledUtilization               .65715    
+PintCh.NumberSeized                         9.0000    
+PintCh.ScheduledUtilization                 .33580    
+System.NumberOut                            11.000    
+
+Beginning replication 8 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 8 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.2330     (Insuf)    1.8639     2.9560         15    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         15    
+Porta.WaitTime                              1.5751     (Insuf)    .52787     2.5109         15    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         15    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         15    
+Porta.TotalTime                             2.0458     (Insuf)    1.1237     2.7270         15    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .01762     (Insuf)    .00000     .15231         14    
+Montar Porta.Queue.WaitingTime              .02383     (Insuf)    .00000     .13299         44    
+Pintar Porta.Queue.WaitingTime              .00349     (Insuf)    .00000     .10970         43    
+Juntar Chassis e Portas.Queue1.WaitingTime  .30604     (Insuf)    .00000     1.0444         14    
+Juntar Chassis e Portas.Queue2.WaitingTime  .08920     (Insuf)    .00000     .60747         14    
+Juntar Portas.Queue.WaitingTime             .18105     (Insuf)    .00000     .69582         44    
+Montar Chassis.Queue.WaitingTime            .57174     (Insuf)    .00000     1.2206         12    
+Pintar Chassis.Queue.WaitingTime            .09075     (Insuf)    .00000     .33300          9    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   8.2743     (Insuf)    1.0000     16.000     13.000    
+Chassis.WIP                                 4.3753     (Insuf)    .00000     8.0000     .00000    
+OpChassis.NumberBusy                        1.6342     (Insuf)    .00000     2.0000     .00000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .81711     (Insuf)    .00000     1.0000     .00000    
+OpPortas.NumberBusy                         1.3620     (Insuf)    .00000     2.0000     .00000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .68103     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberBusy                          .41612     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .41612     (Insuf)    .00000     1.0000     .00000    
+PintorPo.NumberBusy                         1.6126     (Insuf)    .00000     3.0000     .00000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .53754     (Insuf)    .00000     1.0000     .00000    
+PintCh.NumberBusy                           .34715     (Insuf)    .00000     1.0000     .00000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .34715     (Insuf)    .00000     1.0000     .00000    
+Mesclar Carrocaria.Queue.NumberInQueue      .04112     (Insuf)    .00000     1.0000     .00000    
+Montar Porta.Queue.NumberInQueue            .17477     (Insuf)    .00000     1.0000     .00000    
+Pintar Porta.Queue.NumberInQueue            .02505     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .71408     (Insuf)    .00000     3.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  .52521     (Insuf)    .00000     3.0000     3.0000    
+Juntar Portas.Queue.NumberInQueue           1.3146     (Insuf)    .00000     4.0000     2.0000    
+Montar Chassis.Queue.NumberInQueue          1.0865     (Insuf)    .00000     3.0000     .00000    
+Pintar Chassis.Queue.NumberInQueue          .13613     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              74.000    
+Porta.NumberOut                             70.000    
+Chassis.NumberIn                            9.0000    
+Chassis.NumberOut                           15.000    
+OpChassis.NumberSeized                      12.000    
+OpChassis.ScheduledUtilization              .81711    
+OpPortas.NumberSeized                       44.000    
+OpPortas.ScheduledUtilization               .68103    
+OpFinal.NumberSeized                        14.000    
+OpFinal.ScheduledUtilization                .41612    
+PintorPo.NumberSeized                       43.000    
+PintorPo.ScheduledUtilization               .53754    
+PintCh.NumberSeized                         9.0000    
+PintCh.ScheduledUtilization                 .34715    
+System.NumberOut                            15.000    
+
+Beginning replication 9 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 9 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.1427     (Insuf)    1.8571     2.8033         11    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         11    
+Porta.WaitTime                              2.8648     (Insuf)    1.5754     4.8951         11    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         11    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         11    
+Porta.TotalTime                             2.8051     (Insuf)    1.9343     5.1174         11    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .01949     (Insuf)    .00000     .12893         10    
+Montar Porta.Queue.WaitingTime              .04328     (Insuf)    .00000     .28513         45    
+Pintar Porta.Queue.WaitingTime              .01098     (Insuf)    .00000     .13275         45    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         10    
+Juntar Chassis e Portas.Queue2.WaitingTime  2.0056     (Insuf)    1.2600     4.1991         10    
+Juntar Portas.Queue.WaitingTime             .15507     (Insuf)    .00000     .46414         44    
+Montar Chassis.Queue.WaitingTime            .19533     (Insuf)    .00000     .73530         10    
+Pintar Chassis.Queue.WaitingTime            .04056     (Insuf)    .00000     .24199          8    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   33.410     (Insuf)    22.000     50.000     49.000    
+Chassis.WIP                                 2.2086     (Insuf)    .00000     5.0000     2.0000    
+OpChassis.NumberBusy                        1.2823     (Insuf)    .00000     2.0000     2.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .64117     (Insuf)    .00000     1.0000     1.0000    
+OpPortas.NumberBusy                         1.4046     (Insuf)    .00000     2.0000     1.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .70234     (Insuf)    .00000     1.0000     .50000    
+OpFinal.NumberBusy                          .27020     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .27020     (Insuf)    .00000     1.0000     .00000    
+PintorPo.NumberBusy                         1.6014     (Insuf)    .00000     3.0000     1.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .53380     (Insuf)    .00000     1.0000     .33333    
+PintCh.NumberBusy                           .28810     (Insuf)    .00000     1.0000     .00000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .28810     (Insuf)    .00000     1.0000     .00000    
+Mesclar Carrocaria.Queue.NumberInQueue      .03248     (Insuf)    .00000     1.0000     .00000    
+Montar Porta.Queue.NumberInQueue            .32463     (Insuf)    .00000     3.0000     .00000    
+Pintar Porta.Queue.NumberInQueue            .08232     (Insuf)    .00000     3.0000     .00000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  7.7960     (Insuf)    4.0000     13.000     13.000    
+Juntar Portas.Queue.NumberInQueue           1.2002     (Insuf)    .00000     4.0000     2.0000    
+Montar Chassis.Queue.NumberInQueue          .28141     (Insuf)    .00000     2.0000     .00000    
+Pintar Chassis.Queue.NumberInQueue          .05408     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              72.000    
+Porta.NumberOut                             50.000    
+Chassis.NumberIn                            8.0000    
+Chassis.NumberOut                           11.000    
+OpChassis.NumberSeized                      10.000    
+OpChassis.ScheduledUtilization              .64117    
+OpPortas.NumberSeized                       45.000    
+OpPortas.ScheduledUtilization               .70234    
+OpFinal.NumberSeized                        10.000    
+OpFinal.ScheduledUtilization                .27020    
+PintorPo.NumberSeized                       45.000    
+PintorPo.ScheduledUtilization               .53380    
+PintCh.NumberSeized                         8.0000    
+PintCh.ScheduledUtilization                 .28810    
+System.NumberOut                            11.000    
+
+Beginning replication 10 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 10 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                1.8895     (Insuf)    1.8265     1.9863          8    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000          8    
+Porta.WaitTime                              2.7474     (Insuf)    1.6006     3.6225          8    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000          8    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000          8    
+Porta.TotalTime                             3.1273     (Insuf)    2.0270     3.9255          8    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          8    
+Montar Porta.Queue.WaitingTime              .05809     (Insuf)    .00000     .29229         45    
+Pintar Porta.Queue.WaitingTime              .02534     (Insuf)    .00000     .17790         46    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000          8    
+Juntar Chassis e Portas.Queue2.WaitingTime  2.2861     (Insuf)    1.2709     3.3881          8    
+Juntar Portas.Queue.WaitingTime             .15208     (Insuf)    .00000     .65688         46    
+Montar Chassis.Queue.WaitingTime            .05255     (Insuf)    .00000     .36788          7    
+Pintar Chassis.Queue.WaitingTime            .05053     (Insuf)    .00000     .27629          8    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   28.753     (Insuf)    10.000     54.000     54.000    
+Chassis.WIP                                 1.5701     (Insuf)    .00000     3.0000     1.0000    
+OpChassis.NumberBusy                        .97867     (Insuf)    .00000     2.0000     .00000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .48934     (Insuf)    .00000     1.0000     .00000    
+OpPortas.NumberBusy                         1.3543     (Insuf)    .00000     2.0000     .00000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .67717     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberBusy                          .21313     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .21313     (Insuf)    .00000     1.0000     .00000    
+PintorPo.NumberBusy                         1.6559     (Insuf)    .00000     3.0000     2.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .55198     (Insuf)    .00000     1.0000     .66667    
+PintCh.NumberBusy                           .24970     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .24970     (Insuf)    .00000     1.0000     1.0000    
+Mesclar Carrocaria.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Montar Porta.Queue.NumberInQueue            .43566     (Insuf)    .00000     4.0000     .00000    
+Pintar Porta.Queue.NumberInQueue            .19431     (Insuf)    .00000     3.0000     .00000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  7.2935     (Insuf)    2.0000     16.000     16.000    
+Juntar Portas.Queue.NumberInQueue           1.1918     (Insuf)    .00000     4.0000     2.0000    
+Montar Chassis.Queue.NumberInQueue          .06131     (Insuf)    .00000     1.0000     .00000    
+Pintar Chassis.Queue.NumberInQueue          .06737     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              76.000    
+Porta.NumberOut                             32.000    
+Chassis.NumberIn                            8.0000    
+Chassis.NumberOut                           8.0000    
+OpChassis.NumberSeized                      7.0000    
+OpChassis.ScheduledUtilization              .48934    
+OpPortas.NumberSeized                       45.000    
+OpPortas.ScheduledUtilization               .67717    
+OpFinal.NumberSeized                        8.0000    
+OpFinal.ScheduledUtilization                .21313    
+PintorPo.NumberSeized                       46.000    
+PintorPo.ScheduledUtilization               .55198    
+PintCh.NumberSeized                         8.0000    
+PintCh.ScheduledUtilization                 .24970    
+System.NumberOut                            8.0000    
+
+Beginning replication 11 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 11 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.2883     (Insuf)    1.8753     2.8540         14    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         14    
+Porta.WaitTime                              2.9265     (Insuf)    1.9805     4.0794         14    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         14    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         14    
+Porta.TotalTime                             2.4916     (Insuf)    1.8707     3.2431         14    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .00460     (Insuf)    .00000     .06444         14    
+Montar Porta.Queue.WaitingTime              .11724     (Insuf)    .00000     .36388         51    
+Pintar Porta.Queue.WaitingTime              .04619     (Insuf)    .00000     .22379         51    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         14    
+Juntar Chassis e Portas.Queue2.WaitingTime  1.5079     (Insuf)    .89118     2.2369         14    
+Juntar Portas.Queue.WaitingTime             .14355     (Insuf)    .00000     .79506         50    
+Montar Chassis.Queue.WaitingTime            .36721     (Insuf)    .00000     .91548         14    
+Pintar Chassis.Queue.WaitingTime            .15217     (Insuf)    .00000     .48553         14    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   27.140     (Insuf)    14.000     42.000     39.000    
+Chassis.WIP                                 3.9758     (Insuf)    .00000     7.0000     6.0000    
+OpChassis.NumberBusy                        1.7915     (Insuf)    .00000     2.0000     2.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .89579     (Insuf)    .00000     1.0000     1.0000    
+OpPortas.NumberBusy                         1.5580     (Insuf)    .00000     2.0000     1.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .77900     (Insuf)    .00000     1.0000     .50000    
+OpFinal.NumberBusy                          .37238     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .37238     (Insuf)    .00000     1.0000     .00000    
+PintorPo.NumberBusy                         1.9032     (Insuf)    .00000     3.0000     3.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .63441     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberBusy                           .49464     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .49464     (Insuf)    .00000     1.0000     1.0000    
+Mesclar Carrocaria.Queue.NumberInQueue      .01074     (Insuf)    .00000     1.0000     .00000    
+Montar Porta.Queue.NumberInQueue            .99657     (Insuf)    .00000     4.0000     .00000    
+Pintar Porta.Queue.NumberInQueue            .39263     (Insuf)    .00000     3.0000     .00000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  5.6249     (Insuf)    1.0000     11.000     11.000    
+Juntar Portas.Queue.NumberInQueue           1.2450     (Insuf)    .00000     4.0000     2.0000    
+Montar Chassis.Queue.NumberInQueue          .84048     (Insuf)    .00000     3.0000     1.0000    
+Pintar Chassis.Queue.NumberInQueue          .46608     (Insuf)    .00000     4.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              86.000    
+Porta.NumberOut                             68.000    
+Chassis.NumberIn                            16.000    
+Chassis.NumberOut                           14.000    
+OpChassis.NumberSeized                      14.000    
+OpChassis.ScheduledUtilization              .89579    
+OpPortas.NumberSeized                       51.000    
+OpPortas.ScheduledUtilization               .77900    
+OpFinal.NumberSeized                        14.000    
+OpFinal.ScheduledUtilization                .37238    
+PintorPo.NumberSeized                       51.000    
+PintorPo.ScheduledUtilization               .63441    
+PintCh.NumberSeized                         14.000    
+PintCh.ScheduledUtilization                 .49464    
+System.NumberOut                            14.000    
+
+Beginning replication 12 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 12 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.3294     (Insuf)    1.8839     2.9367         13    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         13    
+Porta.WaitTime                              2.2460     (Insuf)    1.8091     2.9446         13    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         13    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         13    
+Porta.TotalTime                             2.1379     (Insuf)    1.5594     3.0966         13    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .00958     (Insuf)    .00000     .09783         12    
+Montar Porta.Queue.WaitingTime              .07141     (Insuf)    .00000     .25673         55    
+Pintar Porta.Queue.WaitingTime              .03111     (Insuf)    .00000     .21560         53    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         12    
+Juntar Chassis e Portas.Queue2.WaitingTime  1.2061     (Insuf)    .51136     2.2019         12    
+Juntar Portas.Queue.WaitingTime             .11081     (Insuf)    .00000     .58501         54    
+Montar Chassis.Queue.WaitingTime            .40768     (Insuf)    .00000     .88293         11    
+Pintar Chassis.Queue.WaitingTime            .01867     (Insuf)    .00000     .07616          8    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   23.961     (Insuf)    10.000     44.000     39.000    
+Chassis.WIP                                 2.8682     (Insuf)    1.0000     6.0000     1.0000    
+OpChassis.NumberBusy                        1.5565     (Insuf)    .00000     2.0000     1.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .77827     (Insuf)    .00000     1.0000     .50000    
+OpPortas.NumberBusy                         1.6451     (Insuf)    .00000     2.0000     2.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .82259     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberBusy                          .33751     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .33751     (Insuf)    .00000     1.0000     .00000    
+PintorPo.NumberBusy                         1.9454     (Insuf)    .00000     3.0000     1.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .64850     (Insuf)    .00000     1.0000     .33333    
+PintCh.NumberBusy                           .26703     (Insuf)    .00000     1.0000     .00000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .26703     (Insuf)    .00000     1.0000     .00000    
+Mesclar Carrocaria.Queue.NumberInQueue      .01915     (Insuf)    .00000     1.0000     .00000    
+Montar Porta.Queue.NumberInQueue            .63250     (Insuf)    .00000     4.0000     .00000    
+Pintar Porta.Queue.NumberInQueue            .27479     (Insuf)    .00000     4.0000     .00000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  4.4619     (Insuf)    2.0000     9.0000     9.0000    
+Juntar Portas.Queue.NumberInQueue           1.0104     (Insuf)    .00000     4.0000     1.0000    
+Montar Chassis.Queue.NumberInQueue          .66309     (Insuf)    .00000     3.0000     .00000    
+Pintar Chassis.Queue.NumberInQueue          .02490     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              84.000    
+Porta.NumberOut                             64.000    
+Chassis.NumberIn                            8.0000    
+Chassis.NumberOut                           13.000    
+OpChassis.NumberSeized                      11.000    
+OpChassis.ScheduledUtilization              .77827    
+OpPortas.NumberSeized                       55.000    
+OpPortas.ScheduledUtilization               .82259    
+OpFinal.NumberSeized                        12.000    
+OpFinal.ScheduledUtilization                .33751    
+PintorPo.NumberSeized                       53.000    
+PintorPo.ScheduledUtilization               .64850    
+PintCh.NumberSeized                         8.0000    
+PintCh.ScheduledUtilization                 .26703    
+System.NumberOut                            13.000    
+
+Beginning replication 13 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 13 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.2088     (Insuf)    1.8422     2.8133         12    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         12    
+Porta.WaitTime                              2.4429     (Insuf)    1.0454     3.7645         12    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         12    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         12    
+Porta.TotalTime                             2.5342     (Insuf)    1.4182     3.5874         12    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .00326     (Insuf)    .00000     .03591         11    
+Montar Porta.Queue.WaitingTime              .04810     (Insuf)    .00000     .23575         48    
+Pintar Porta.Queue.WaitingTime              .02503     (Insuf)    .00000     .19074         49    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         11    
+Juntar Chassis e Portas.Queue2.WaitingTime  1.7031     (Insuf)    .47932     2.4903         11    
+Juntar Portas.Queue.WaitingTime             .15891     (Insuf)    .00000     .77399         48    
+Montar Chassis.Queue.WaitingTime            .13420     (Insuf)    .00000     .62399         12    
+Pintar Chassis.Queue.WaitingTime            .09073     (Insuf)    .00000     .33101         11    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   24.318     (Insuf)    12.000     39.000     39.000    
+Chassis.WIP                                 2.6308     (Insuf)    .00000     5.0000     2.0000    
+OpChassis.NumberBusy                        1.4589     (Insuf)    .00000     2.0000     2.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .72946     (Insuf)    .00000     1.0000     1.0000    
+OpPortas.NumberBusy                         1.4368     (Insuf)    .00000     2.0000     2.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .71843     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberBusy                          .32149     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .32149     (Insuf)    .00000     1.0000     .00000    
+PintorPo.NumberBusy                         1.7162     (Insuf)    .00000     3.0000     3.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .57210     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberBusy                           .40967     (Insuf)    .00000     1.0000     .00000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .40967     (Insuf)    .00000     1.0000     .00000    
+Mesclar Carrocaria.Queue.NumberInQueue      .00599     (Insuf)    .00000     1.0000     .00000    
+Montar Porta.Queue.NumberInQueue            .38185     (Insuf)    .00000     3.0000     .00000    
+Pintar Porta.Queue.NumberInQueue            .20777     (Insuf)    .00000     4.0000     1.0000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  5.0475     (Insuf)    1.0000     10.000     10.000    
+Juntar Portas.Queue.NumberInQueue           1.2711     (Insuf)    .00000     4.0000     1.0000    
+Montar Chassis.Queue.NumberInQueue          .26840     (Insuf)    .00000     2.0000     .00000    
+Pintar Chassis.Queue.NumberInQueue          .16634     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              81.000    
+Porta.NumberOut                             56.000    
+Chassis.NumberIn                            11.000    
+Chassis.NumberOut                           12.000    
+OpChassis.NumberSeized                      12.000    
+OpChassis.ScheduledUtilization              .72946    
+OpPortas.NumberSeized                       48.000    
+OpPortas.ScheduledUtilization               .71843    
+OpFinal.NumberSeized                        11.000    
+OpFinal.ScheduledUtilization                .32149    
+PintorPo.NumberSeized                       49.000    
+PintorPo.ScheduledUtilization               .57210    
+PintCh.NumberSeized                         11.000    
+PintCh.ScheduledUtilization                 .40967    
+System.NumberOut                            12.000    
+
+Beginning replication 14 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 14 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.2184     (Insuf)    1.8416     2.8365         15    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         15    
+Porta.WaitTime                              2.2247     (Insuf)    .58482     3.7540         15    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         15    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         15    
+Porta.TotalTime                             2.0212     (Insuf)    1.2424     2.5833         15    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .00611     (Insuf)    .00000     .05020         14    
+Montar Porta.Queue.WaitingTime              .07810     (Insuf)    .00000     .35856         53    
+Pintar Porta.Queue.WaitingTime              .04375     (Insuf)    .00000     .23872         53    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         14    
+Juntar Chassis e Portas.Queue2.WaitingTime  1.0689     (Insuf)    .32181     1.7982         14    
+Juntar Portas.Queue.WaitingTime             .15771     (Insuf)    .00000     .51105         56    
+Montar Chassis.Queue.WaitingTime            .41550     (Insuf)    .00000     .88639         14    
+Pintar Chassis.Queue.WaitingTime            .08026     (Insuf)    .00000     .45555         16    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   20.706     (Insuf)    12.000     30.000     29.000    
+Chassis.WIP                                 4.3113     (Insuf)    2.0000     7.0000     5.0000    
+OpChassis.NumberBusy                        1.9159     (Insuf)    1.0000     2.0000     2.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .95798     (Insuf)    .50000     1.0000     1.0000    
+OpPortas.NumberBusy                         1.6383     (Insuf)    .00000     2.0000     1.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .81917     (Insuf)    .00000     1.0000     .50000    
+OpFinal.NumberBusy                          .41431     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .41431     (Insuf)    .00000     1.0000     .00000    
+PintorPo.NumberBusy                         1.8741     (Insuf)    .00000     3.0000     3.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .62470     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberBusy                           .60303     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .60303     (Insuf)    .00000     1.0000     1.0000    
+Mesclar Carrocaria.Queue.NumberInQueue      .01425     (Insuf)    .00000     1.0000     .00000    
+Montar Porta.Queue.NumberInQueue            .68985     (Insuf)    .00000     4.0000     .00000    
+Pintar Porta.Queue.NumberInQueue            .37552     (Insuf)    .00000     4.0000     1.0000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  3.3192     (Insuf)    .00000     6.0000     6.0000    
+Juntar Portas.Queue.NumberInQueue           1.4355     (Insuf)    .00000     4.0000     .00000    
+Montar Chassis.Queue.NumberInQueue          1.1497     (Insuf)    .00000     3.0000     2.0000    
+Pintar Chassis.Queue.NumberInQueue          .21402     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              86.000    
+Porta.NumberOut                             70.000    
+Chassis.NumberIn                            16.000    
+Chassis.NumberOut                           15.000    
+OpChassis.NumberSeized                      14.000    
+OpChassis.ScheduledUtilization              .95798    
+OpPortas.NumberSeized                       53.000    
+OpPortas.ScheduledUtilization               .81917    
+OpFinal.NumberSeized                        14.000    
+OpFinal.ScheduledUtilization                .41431    
+PintorPo.NumberSeized                       53.000    
+PintorPo.ScheduledUtilization               .62470    
+PintCh.NumberSeized                         16.000    
+PintCh.ScheduledUtilization                 .60303    
+System.NumberOut                            15.000    
+
+Beginning replication 15 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 15 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.1286     (Insuf)    1.8160     2.6783         12    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         12    
+Porta.WaitTime                              1.8400     (Insuf)    1.0261     2.8000         12    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         12    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         12    
+Porta.TotalTime                             2.2401     (Insuf)    1.5898     3.4026         12    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .00965     (Insuf)    .00000     .08283         12    
+Montar Porta.Queue.WaitingTime              .01967     (Insuf)    .00000     .13587         44    
+Pintar Porta.Queue.WaitingTime              .00290     (Insuf)    .00000     .08069         42    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         11    
+Juntar Chassis e Portas.Queue2.WaitingTime  1.4736     (Insuf)    .41487     2.1094         11    
+Juntar Portas.Queue.WaitingTime             .15840     (Insuf)    .00000     .67597         44    
+Montar Chassis.Queue.WaitingTime            .05107     (Insuf)    .00000     .24355         11    
+Pintar Chassis.Queue.WaitingTime            .01643     (Insuf)    .00000     .11110         11    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   18.733     (Insuf)    5.0000     32.000     32.000    
+Chassis.WIP                                 2.3253     (Insuf)    1.0000     4.0000     2.0000    
+OpChassis.NumberBusy                        1.4639     (Insuf)    .00000     2.0000     1.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .73196     (Insuf)    .00000     1.0000     .50000    
+OpPortas.NumberBusy                         1.3223     (Insuf)    .00000     2.0000     .00000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .66117     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberBusy                          .35113     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .35113     (Insuf)    .00000     1.0000     1.0000    
+PintorPo.NumberBusy                         1.5517     (Insuf)    .00000     3.0000     1.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .51725     (Insuf)    .00000     1.0000     .33333    
+PintCh.NumberBusy                           .36987     (Insuf)    .00000     1.0000     .00000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .36987     (Insuf)    .00000     1.0000     .00000    
+Mesclar Carrocaria.Queue.NumberInQueue      .01667     (Insuf)    .00000     1.0000     .00000    
+Montar Porta.Queue.NumberInQueue            .14422     (Insuf)    .00000     2.0000     .00000    
+Pintar Porta.Queue.NumberInQueue            .02033     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  3.9281     (Insuf)    .00000     8.0000     8.0000    
+Juntar Portas.Queue.NumberInQueue           1.0969     (Insuf)    .00000     4.0000     1.0000    
+Montar Chassis.Queue.NumberInQueue          .09363     (Insuf)    .00000     2.0000     .00000    
+Pintar Chassis.Queue.NumberInQueue          .03012     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              72.000    
+Porta.NumberOut                             54.000    
+Chassis.NumberIn                            11.000    
+Chassis.NumberOut                           12.000    
+OpChassis.NumberSeized                      11.000    
+OpChassis.ScheduledUtilization              .73196    
+OpPortas.NumberSeized                       44.000    
+OpPortas.ScheduledUtilization               .66117    
+OpFinal.NumberSeized                        12.000    
+OpFinal.ScheduledUtilization                .35113    
+PintorPo.NumberSeized                       42.000    
+PintorPo.ScheduledUtilization               .51725    
+PintCh.NumberSeized                         11.000    
+PintCh.ScheduledUtilization                 .36987    
+System.NumberOut                            12.000    
+
+Beginning replication 16 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 16 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.2264     (Insuf)    1.8161     2.9097         16    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         16    
+Porta.WaitTime                              2.7895     (Insuf)    1.0460     4.7296         16    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         16    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         16    
+Porta.TotalTime                             2.7530     (Insuf)    1.7226     4.1451         16    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000         16    
+Montar Porta.Queue.WaitingTime              .04167     (Insuf)    .00000     .14832         44    
+Pintar Porta.Queue.WaitingTime              .01707     (Insuf)    .00000     .17272         45    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         16    
+Juntar Chassis e Portas.Queue2.WaitingTime  .69662     (Insuf)    .25190     1.2560         16    
+Juntar Portas.Queue.WaitingTime             .13201     (Insuf)    .00000     .70319         44    
+Montar Chassis.Queue.WaitingTime            1.7079     (Insuf)    .63199     2.7344         16    
+Pintar Chassis.Queue.WaitingTime            .14692     (Insuf)    .00000     .61376         18    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   13.181     (Insuf)    8.0000     23.000     23.000    
+Chassis.WIP                                 8.8512     (Insuf)    5.0000     11.000     8.0000    
+OpChassis.NumberBusy                        2.0000     (Insuf)    1.0000     2.0000     2.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       1.0000     (Insuf)    .50000     1.0000     1.0000    
+OpPortas.NumberBusy                         1.3731     (Insuf)    .00000     2.0000     2.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .68657     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberBusy                          .44021     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .44021     (Insuf)    .00000     1.0000     1.0000    
+PintorPo.NumberBusy                         1.6416     (Insuf)    .00000     3.0000     3.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .54723     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberBusy                           .64030     (Insuf)    .00000     1.0000     .00000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .64030     (Insuf)    .00000     1.0000     .00000    
+Mesclar Carrocaria.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Montar Porta.Queue.NumberInQueue            .30999     (Insuf)    .00000     2.0000     1.0000    
+Pintar Porta.Queue.NumberInQueue            .10869     (Insuf)    .00000     2.0000     1.0000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  1.9467     (Insuf)    .00000     4.0000     3.0000    
+Juntar Portas.Queue.NumberInQueue           .96951     (Insuf)    .00000     4.0000     1.0000    
+Montar Chassis.Queue.NumberInQueue          5.3300     (Insuf)    2.0000     8.0000     5.0000    
+Pintar Chassis.Queue.NumberInQueue          .44076     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              77.000    
+Porta.NumberOut                             74.000    
+Chassis.NumberIn                            18.000    
+Chassis.NumberOut                           16.000    
+OpChassis.NumberSeized                      16.000    
+OpChassis.ScheduledUtilization              1.0000    
+OpPortas.NumberSeized                       44.000    
+OpPortas.ScheduledUtilization               .68657    
+OpFinal.NumberSeized                        16.000    
+OpFinal.ScheduledUtilization                .44021    
+PintorPo.NumberSeized                       45.000    
+PintorPo.ScheduledUtilization               .54723    
+PintCh.NumberSeized                         18.000    
+PintCh.ScheduledUtilization                 .64030    
+System.NumberOut                            16.000    
+
+Beginning replication 17 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 17 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.2582     (Insuf)    1.7564     2.9398         11    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         11    
+Porta.WaitTime                              3.2067     (Insuf)    .92113     4.5292         11    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         11    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         11    
+Porta.TotalTime                             3.0841     (Insuf)    1.4905     3.8749         11    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .01498     (Insuf)    .00000     .13357         12    
+Montar Porta.Queue.WaitingTime              .15668     (Insuf)    .00000     .41726         57    
+Pintar Porta.Queue.WaitingTime              .09056     (Insuf)    .00000     .42576         63    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         12    
+Juntar Chassis e Portas.Queue2.WaitingTime  2.2176     (Insuf)    .69986     2.9326         12    
+Juntar Portas.Queue.WaitingTime             .14202     (Insuf)    .00000     .65607         56    
+Montar Chassis.Queue.WaitingTime            .33284     (Insuf)    .00000     .67090         11    
+Pintar Chassis.Queue.WaitingTime            .11584     (Insuf)    .00000     .51468         12    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   33.952     (Insuf)    11.000     59.000     57.000    
+Chassis.WIP                                 3.1610     (Insuf)    .00000     5.0000     3.0000    
+OpChassis.NumberBusy                        1.5161     (Insuf)    .00000     2.0000     1.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .75808     (Insuf)    .00000     1.0000     .50000    
+OpPortas.NumberBusy                         1.6963     (Insuf)    .00000     2.0000     2.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .84817     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberBusy                          .33160     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .33160     (Insuf)    .00000     1.0000     1.0000    
+PintorPo.NumberBusy                         2.2559     (Insuf)    .00000     3.0000     3.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .75199     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberBusy                           .44145     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .44145     (Insuf)    .00000     1.0000     1.0000    
+Mesclar Carrocaria.Queue.NumberInQueue      .02996     (Insuf)    .00000     1.0000     .00000    
+Montar Porta.Queue.NumberInQueue            1.6958     (Insuf)    .00000     7.0000     6.0000    
+Pintar Porta.Queue.NumberInQueue            .95086     (Insuf)    .00000     7.0000     .00000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  6.6577     (Insuf)    2.0000     12.000     11.000    
+Juntar Portas.Queue.NumberInQueue           1.3286     (Insuf)    .00000     4.0000     1.0000    
+Montar Chassis.Queue.NumberInQueue          .61020     (Insuf)    .00000     2.0000     .00000    
+Pintar Chassis.Queue.NumberInQueue          .23167     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              96.000    
+Porta.NumberOut                             52.000    
+Chassis.NumberIn                            12.000    
+Chassis.NumberOut                           11.000    
+OpChassis.NumberSeized                      11.000    
+OpChassis.ScheduledUtilization              .75808    
+OpPortas.NumberSeized                       57.000    
+OpPortas.ScheduledUtilization               .84817    
+OpFinal.NumberSeized                        12.000    
+OpFinal.ScheduledUtilization                .33160    
+PintorPo.NumberSeized                       63.000    
+PintorPo.ScheduledUtilization               .75199    
+PintCh.NumberSeized                         12.000    
+PintCh.ScheduledUtilization                 .44145    
+System.NumberOut                            11.000    
+
+Beginning replication 18 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 18 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.1920     (Insuf)    1.8755     2.8500         11    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         11    
+Porta.WaitTime                              2.7357     (Insuf)    .93345     4.5717         11    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         11    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         11    
+Porta.TotalTime                             2.7922     (Insuf)    1.4738     4.0221         11    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .02320     (Insuf)    .00000     .18060         11    
+Montar Porta.Queue.WaitingTime              .23546     (Insuf)    .00000     .48872         61    
+Pintar Porta.Queue.WaitingTime              .03974     (Insuf)    .00000     .26720         58    
+Juntar Chassis e Portas.Queue1.WaitingTime  .01915     (Insuf)    .00000     .21067         11    
+Juntar Chassis e Portas.Queue2.WaitingTime  1.7689     (Insuf)    .00000     2.9573         11    
+Juntar Portas.Queue.WaitingTime             .13954     (Insuf)    .00000     .89450         62    
+Montar Chassis.Queue.WaitingTime            .12168     (Insuf)    .00000     .35980         11    
+Pintar Chassis.Queue.WaitingTime            .10217     (Insuf)    .00000     .42672         12    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   34.287     (Insuf)    7.0000     62.000     53.000    
+Chassis.WIP                                 2.7444     (Insuf)    .00000     5.0000     3.0000    
+OpChassis.NumberBusy                        1.4354     (Insuf)    .00000     2.0000     2.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .71772     (Insuf)    .00000     1.0000     1.0000    
+OpPortas.NumberBusy                         1.8288     (Insuf)    .00000     2.0000     2.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .91444     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberBusy                          .32177     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .32177     (Insuf)    .00000     1.0000     .00000    
+PintorPo.NumberBusy                         2.1656     (Insuf)    .00000     3.0000     .00000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .72188     (Insuf)    .00000     1.0000     .00000    
+PintCh.NumberBusy                           .43402     (Insuf)    .00000     1.0000     .00000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .43402     (Insuf)    .00000     1.0000     .00000    
+Mesclar Carrocaria.Queue.NumberInQueue      .04253     (Insuf)    .00000     1.0000     .00000    
+Montar Porta.Queue.NumberInQueue            2.3938     (Insuf)    .00000     6.0000     .00000    
+Pintar Porta.Queue.NumberInQueue            .38416     (Insuf)    .00000     4.0000     .00000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .02273     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  7.3246     (Insuf)    .00000     16.000     16.000    
+Juntar Portas.Queue.NumberInQueue           1.1146     (Insuf)    .00000     4.0000     1.0000    
+Montar Chassis.Queue.NumberInQueue          .28367     (Insuf)    .00000     2.0000     1.0000    
+Pintar Chassis.Queue.NumberInQueue          .20435     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              96.000    
+Porta.NumberOut                             50.000    
+Chassis.NumberIn                            12.000    
+Chassis.NumberOut                           11.000    
+OpChassis.NumberSeized                      11.000    
+OpChassis.ScheduledUtilization              .71772    
+OpPortas.NumberSeized                       61.000    
+OpPortas.ScheduledUtilization               .91444    
+OpFinal.NumberSeized                        11.000    
+OpFinal.ScheduledUtilization                .32177    
+PintorPo.NumberSeized                       58.000    
+PintorPo.ScheduledUtilization               .72188    
+PintCh.NumberSeized                         12.000    
+PintCh.ScheduledUtilization                 .43402    
+System.NumberOut                            11.000    
+
+Beginning replication 19 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 19 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.0980     (Insuf)    1.7834     2.9081         11    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000         11    
+Porta.WaitTime                              3.0578     (Insuf)    .82942     4.1577         11    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000         11    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000         11    
+Porta.TotalTime                             3.1931     (Insuf)    1.6605     4.2025         11    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        8.8062E-04 (Insuf)    .00000     .01057         12    
+Montar Porta.Queue.WaitingTime              .10861     (Insuf)    .00000     .45141         55    
+Pintar Porta.Queue.WaitingTime              .04102     (Insuf)    .00000     .18002         57    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         12    
+Juntar Chassis e Portas.Queue2.WaitingTime  2.3436     (Insuf)    .28250     3.4255         12    
+Juntar Portas.Queue.WaitingTime             .16413     (Insuf)    .00000     .68967         54    
+Montar Chassis.Queue.WaitingTime            .19401     (Insuf)    .00000     .83636         12    
+Pintar Chassis.Queue.WaitingTime            .04101     (Insuf)    .00000     .19542         13    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   38.184     (Insuf)    11.000     57.000     57.000    
+Chassis.WIP                                 2.7109     (Insuf)    .00000     6.0000     4.0000    
+OpChassis.NumberBusy                        1.4462     (Insuf)    .00000     2.0000     2.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .72312     (Insuf)    .00000     1.0000     1.0000    
+OpPortas.NumberBusy                         1.7039     (Insuf)    .00000     2.0000     2.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .85198     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberBusy                          .32922     (Insuf)    .00000     1.0000     1.0000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .32922     (Insuf)    .00000     1.0000     1.0000    
+PintorPo.NumberBusy                         2.0441     (Insuf)    .00000     3.0000     3.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .68138     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberBusy                           .45684     (Insuf)    .00000     1.0000     1.0000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .45684     (Insuf)    .00000     1.0000     1.0000    
+Mesclar Carrocaria.Queue.NumberInQueue      .00176     (Insuf)    .00000     1.0000     .00000    
+Montar Porta.Queue.NumberInQueue            1.0058     (Insuf)    .00000     5.0000     2.0000    
+Pintar Porta.Queue.NumberInQueue            .38973     (Insuf)    .00000     3.0000     .00000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  8.5718     (Insuf)    2.0000     14.000     13.000    
+Juntar Portas.Queue.NumberInQueue           1.4918     (Insuf)    .00000     4.0000     1.0000    
+Montar Chassis.Queue.NumberInQueue          .38802     (Insuf)    .00000     3.0000     .00000    
+Pintar Chassis.Queue.NumberInQueue          .08885     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              91.000    
+Porta.NumberOut                             48.000    
+Chassis.NumberIn                            13.000    
+Chassis.NumberOut                           11.000    
+OpChassis.NumberSeized                      12.000    
+OpChassis.ScheduledUtilization              .72312    
+OpPortas.NumberSeized                       55.000    
+OpPortas.ScheduledUtilization               .85198    
+OpFinal.NumberSeized                        12.000    
+OpFinal.ScheduledUtilization                .32922    
+PintorPo.NumberSeized                       57.000    
+PintorPo.ScheduledUtilization               .68138    
+PintCh.NumberSeized                         13.000    
+PintCh.ScheduledUtilization                 .45684    
+System.NumberOut                            11.000    
+
+Beginning replication 20 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 20 of 20
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+Replication ended at time      : 8.0 Hours 
+Statistics were cleared at time: 2.0 Hours (Friday, October 30, 2020, 02:00:00)
+Statistics accumulated for time: 6.0 Hours
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Porta.VATime                                2.3932     (Insuf)    1.8474     2.7598          7    
+Porta.NVATime                               .00000     (Insuf)    .00000     .00000          7    
+Porta.WaitTime                              3.0660     (Insuf)    1.4810     5.6278          7    
+Porta.TranTime                              .00000     (Insuf)    .00000     .00000          7    
+Porta.OtherTime                             .00000     (Insuf)    .00000     .00000          7    
+Porta.TotalTime                             3.0445     (Insuf)    1.6776     4.7787          7    
+Chassis.VATime                                  --         --         --         --          0
+Chassis.NVATime                                 --         --         --         --          0
+Chassis.WaitTime                                --         --         --         --          0
+Chassis.TranTime                                --         --         --         --          0
+Chassis.OtherTime                               --         --         --         --          0
+Chassis.TotalTime                               --         --         --         --          0
+Mesclar Carrocaria.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          7    
+Montar Porta.Queue.WaitingTime              .02696     (Insuf)    .00000     .11977         40    
+Pintar Porta.Queue.WaitingTime              .00597     (Insuf)    .00000     .06965         39    
+Juntar Chassis e Portas.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000          7    
+Juntar Chassis e Portas.Queue2.WaitingTime  2.0588     (Insuf)    .85770     4.0242          7    
+Juntar Portas.Queue.WaitingTime             .18477     (Insuf)    .00000     .72548         44    
+Montar Chassis.Queue.WaitingTime            .02758     (Insuf)    .00000     .16548          6    
+Pintar Chassis.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000          5    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Porta.WIP                                   28.430     (Insuf)    14.000     47.000     46.000    
+Chassis.WIP                                 1.2061     (Insuf)    .00000     3.0000     1.0000    
+OpChassis.NumberBusy                        .82513     (Insuf)    .00000     2.0000     1.0000    
+OpChassis.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpChassis.Utilization                       .41257     (Insuf)    .00000     1.0000     .50000    
+OpPortas.NumberBusy                         1.1858     (Insuf)    .00000     2.0000     1.0000    
+OpPortas.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+OpPortas.Utilization                        .59293     (Insuf)    .00000     1.0000     .50000    
+OpFinal.NumberBusy                          .18542     (Insuf)    .00000     1.0000     .00000    
+OpFinal.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpFinal.Utilization                         .18542     (Insuf)    .00000     1.0000     .00000    
+PintorPo.NumberBusy                         1.3892     (Insuf)    .00000     3.0000     2.0000    
+PintorPo.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+PintorPo.Utilization                        .46307     (Insuf)    .00000     1.0000     .66667    
+PintCh.NumberBusy                           .17923     (Insuf)    .00000     1.0000     .00000    
+PintCh.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+PintCh.Utilization                          .17923     (Insuf)    .00000     1.0000     .00000    
+Mesclar Carrocaria.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Montar Porta.Queue.NumberInQueue            .16342     (Insuf)    .00000     2.0000     .00000    
+Pintar Porta.Queue.NumberInQueue            .03879     (Insuf)    .00000     2.0000     .00000    
+Juntar Chassis e Portas.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Chassis e Portas.Queue2.NumberInQue  6.4660     (Insuf)    2.0000     13.000     13.000    
+Juntar Portas.Queue.NumberInQueue           1.2419     (Insuf)    .00000     4.0000     .00000    
+Montar Chassis.Queue.NumberInQueue          .01632     (Insuf)    .00000     1.0000     .00000    
+Pintar Chassis.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Porta.NumberIn                              63.000    
+Porta.NumberOut                             36.000    
+Chassis.NumberIn                            5.0000    
+Chassis.NumberOut                           7.0000    
+OpChassis.NumberSeized                      6.0000    
+OpChassis.ScheduledUtilization              .41257    
+OpPortas.NumberSeized                       40.000    
+OpPortas.ScheduledUtilization               .59293    
+OpFinal.NumberSeized                        7.0000    
+OpFinal.ScheduledUtilization                .18542    
+PintorPo.NumberSeized                       39.000    
+PintorPo.ScheduledUtilization               .46307    
+PintCh.NumberSeized                         5.0000    
+PintCh.ScheduledUtilization                 .17923    
+System.NumberOut                            7.0000    
+
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                 Output Summary for 20 Replications
+
+Project: Unnamed Project                                             Run execution date :10/30/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/30/2020
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Porta.NumberIn                              82.550     4.2582     63.000     96.000     20
+Porta.NumberOut                             53.900     5.6282     32.000     74.000     20
+Chassis.NumberIn                            11.200     1.5153     5.0000     18.000     20
+Chassis.NumberOut                           11.700     1.1869     7.0000     16.000     20
+OpChassis.NumberSeized                      11.100     1.2137     6.0000     16.000     20
+OpChassis.ScheduledUtilization              .72312     .07660     .41257     1.0000     20
+OpPortas.NumberSeized                       50.400     2.5289     40.000     61.000     20
+OpPortas.ScheduledUtilization               .76591     .03788     .59293     .91444     20
+OpFinal.NumberSeized                        11.450     1.1309     7.0000     16.000     20
+OpFinal.ScheduledUtilization                .32213     .03330     .18542     .44021     20
+PintorPo.NumberSeized                       50.950     2.9734     39.000     63.000     20
+PintorPo.ScheduledUtilization               .61475     .03487     .46307     .75199     20
+PintCh.NumberSeized                         11.050     1.4522     5.0000     18.000     20
+PintCh.ScheduledUtilization                 .40031     .05513     .17923     .64030     20
+System.NumberOut                            11.700     1.1869     7.0000     16.000     20
+
+Simulation run time: 0.22 minutes.
+Simulation run complete.

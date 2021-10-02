@@ -1,0 +1,22 @@
+[RESOURCES]
+OpChassis
+OpPortas
+OpFinal
+PintorPo
+PintCh
+[VARIABLES]
+Entrada Porta.NumberOut
+Pintar Porta.NumberIn
+Mesclar Carrocaria.NumberOut
+Entrada Chassis.NumberOut
+Pintar Porta.NumberOut
+Montar Chassis.NumberIn
+Dispose 1.NumberOut
+Montar Chassis.NumberOut
+carros_produzidos
+Pintar Chassis.NumberOut
+Mesclar Carrocaria.NumberIn
+Pintar Chassis.NumberIn
+Juntar Portas.NumberOut
+Montar Porta.NumberIn
+Montar Porta.NumberOut

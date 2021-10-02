@@ -1,0 +1,111 @@
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 1 of 20
+
+Project: Unnamed Project                                             Run execution date :10/ 9/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/ 9/2020
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Clientes.VATime                             13.272     (Insuf)    6.5517     107.21         64    
+Clientes.NVATime                            .00000     (Insuf)    .00000     .00000         64    
+Clientes.WaitTime                           61.051     (Insuf)    .00000     295.94         64    
+Clientes.TranTime                           .00000     (Insuf)    .00000     .00000         64    
+Clientes.OtherTime                          .00000     (Insuf)    .00000     .00000         64    
+Clientes.TotalTime                          74.324     (Insuf)    17.832     402.84         64    
+ATM.Queue.WaitingTime                       166.50     (Insuf)    .00000     288.13          5    
+Atendimento.Queue.WaitingTime               53.520     (Insuf)    .00000     110.05         69    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Clientes.WIP                                15.956     (Insuf)    .00000     37.000     36.000    
+Multibanco.NumberBusy                       .98557     (Insuf)    .00000     1.0000     1.0000    
+Multibanco.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Multibanco.Utilization                      .98557     (Insuf)    .00000     1.0000     1.0000    
+Funcionário.NumberBusy                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Funcionário.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionário.Utilization                     1.0000     (Insuf)    .00000     1.0000     1.0000    
+ATM.Queue.NumberInQueue                     2.7755     (Insuf)    .00000     3.0000     3.0000    
+Atendimento.Queue.NumberInQueue             11.195     (Insuf)    .00000     32.000     31.000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Clientes.NumberIn                           100.00    
+Clientes.NumberOut                          64.000    
+Multibanco.NumberSeized                     5.0000    
+Multibanco.ScheduledUtilization             .98557    
+Funcionário.NumberSeized                    69.000    
+Funcionário.ScheduledUtilization            1.0000    
+System.NumberOut                            64.000    
+
+Beginning replication 2 of 20
+SIMAN Run Controller.
+
+224.94601 Minutes>
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 2 of 20
+
+Project: Unnamed Project                                             Run execution date :10/ 9/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/ 9/2020
+
+Replication ended at time      : 224.94601 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Clientes.VATime                             14.425     (Insuf)    6.5798     107.33         27    
+Clientes.NVATime                            .00000     (Insuf)    .00000     .00000         27    
+Clientes.WaitTime                           28.254     (Insuf)    .00000     99.265         27    
+Clientes.TranTime                           .00000     (Insuf)    .00000     .00000         27    
+Clientes.OtherTime                          .00000     (Insuf)    .00000     .00000         27    
+Clientes.TotalTime                          42.680     (Insuf)    7.0964     206.60         27    
+ATM.Queue.WaitingTime                       92.652     (Insuf)    .00000     185.29          3    
+Atendimento.Queue.WaitingTime               25.018     (Insuf)    .00000     55.682         32    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Clientes.WIP                                8.5196     (Insuf)    .00000     14.000     9.0000    
+Multibanco.NumberBusy                       .96826     (Insuf)    .00000     1.0000     1.0000    
+Multibanco.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Multibanco.Utilization                      .96826     (Insuf)    .00000     1.0000     1.0000    
+Funcionário.NumberBusy                      .97103     (Insuf)    .00000     1.0000     1.0000    
+Funcionário.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Funcionário.Utilization                     .97103     (Insuf)    .00000     1.0000     1.0000    
+ATM.Queue.NumberInQueue                     2.6695     (Insuf)    .00000     3.0000     3.0000    
+Atendimento.Queue.NumberInQueue             3.9108     (Insuf)    .00000     9.0000     4.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Clientes.NumberIn                           36.000    
+Clientes.NumberOut                          27.000    
+Multibanco.NumberSeized                     3.0000    
+Multibanco.ScheduledUtilization             .96826    
+Funcionário.NumberSeized                    32.000    
+Funcionário.ScheduledUtilization            .97103    
+System.NumberOut                            27.000    
+

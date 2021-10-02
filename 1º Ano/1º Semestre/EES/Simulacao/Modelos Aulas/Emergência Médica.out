@@ -1,0 +1,143 @@
+SIMAN Run Controller.
+
+0.0 Hours>
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 1 of 31
+
+Project: Unnamed Project                                             Run execution date :10/16/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/16/2020
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Pedido.VATime                               .32470     (Insuf)    .17803     .47646         41    
+Pedido.NVATime                              .00000     (Insuf)    .00000     .00000         41    
+Pedido.WaitTime                             .05514     (Insuf)    .00000     .45444         41    
+Pedido.TranTime                             .00000     (Insuf)    .00000     .00000         41    
+Pedido.OtherTime                            .00000     (Insuf)    .00000     .00000         41    
+Pedido.TotalTime                            .37984     (Insuf)    .17803     .81885         41    
+Atendimento CODU.Queue.WaitingTime          .00452     (Insuf)    .00000     .07295         42    
+Deslocação ao Local.Queue.WaitingTime       .05052     (Insuf)    .00000     .38149         41    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Pedido.WIP                                  .65307     (Insuf)    .00000     4.0000     1.0000    
+Ambulância.NumberBusy                       .41473     (Insuf)    .00000     1.0000     .00000    
+Ambulância.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Ambulância.Utilization                      .41473     (Insuf)    .00000     1.0000     .00000    
+Atendedor.NumberBusy                        .14413     (Insuf)    .00000     1.0000     1.0000    
+Atendedor.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Atendedor.Utilization                       .14413     (Insuf)    .00000     1.0000     1.0000    
+Enfermeiro.NumberBusy                       .41473     (Insuf)    .00000     1.0000     .00000    
+Enfermeiro.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Enfermeiro.Utilization                      .41473     (Insuf)    .00000     1.0000     .00000    
+Médico.NumberBusy                           .41473     (Insuf)    .00000     1.0000     .00000    
+Médico.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Médico.Utilization                          .41473     (Insuf)    .00000     1.0000     .00000    
+Bombeiro.NumberBusy                         .82946     (Insuf)    .00000     2.0000     .00000    
+Bombeiro.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Bombeiro.Utilization                        .41473     (Insuf)    .00000     1.0000     .00000    
+Atendimento CODU.Queue.NumberInQueue        .00790     (Insuf)    .00000     1.0000     .00000    
+Deslocação ao Local.Queue.NumberInQueue     .08630     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Pedido.NumberIn                             42.000    
+Pedido.NumberOut                            41.000    
+Ambulância.NumberSeized                     41.000    
+Ambulância.ScheduledUtilization             .41473    
+Atendedor.NumberSeized                      42.000    
+Atendedor.ScheduledUtilization              .14413    
+Enfermeiro.NumberSeized                     41.000    
+Enfermeiro.ScheduledUtilization             .41473    
+Médico.NumberSeized                         41.000    
+Médico.ScheduledUtilization                 .41473    
+Bombeiro.NumberSeized                       82.000    
+Bombeiro.ScheduledUtilization               .41473    
+System.NumberOut                            41.000    
+
+Beginning replication 2 of 31
+SIMAN Run Controller.
+
+0.33559997 Hours>
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 2 of 31
+
+Project: Unnamed Project                                             Run execution date :10/16/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/16/2020
+
+Replication ended at time      : 0.33559997 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Pedido.VATime                                   --         --         --         --          0
+Pedido.NVATime                                  --         --         --         --          0
+Pedido.WaitTime                                 --         --         --         --          0
+Pedido.TranTime                                 --         --         --         --          0
+Pedido.OtherTime                                --         --         --         --          0
+Pedido.TotalTime                                --         --         --         --          0
+Atendimento CODU.Queue.WaitingTime          .01854     (Insuf)    .00000     .03707          2    
+Deslocação ao Local.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000          1    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Pedido.WIP                                  1.8399     (Insuf)    .00000     2.0000     2.0000    
+Ambulância.NumberBusy                       .72946     (Insuf)    .00000     1.0000     1.0000    
+Ambulância.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Ambulância.Utilization                      .72946     (Insuf)    .00000     1.0000     1.0000    
+Atendedor.NumberBusy                        .58463     (Insuf)    .00000     1.0000     .00000    
+Atendedor.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Atendedor.Utilization                       .58463     (Insuf)    .00000     1.0000     .00000    
+Enfermeiro.NumberBusy                       .72946     (Insuf)    .00000     1.0000     1.0000    
+Enfermeiro.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Enfermeiro.Utilization                      .72946     (Insuf)    .00000     1.0000     1.0000    
+Médico.NumberBusy                           .72946     (Insuf)    .00000     1.0000     1.0000    
+Médico.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Médico.Utilization                          .72946     (Insuf)    .00000     1.0000     1.0000    
+Bombeiro.NumberBusy                         1.4589     (Insuf)    .00000     2.0000     2.0000    
+Bombeiro.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Bombeiro.Utilization                        .72946     (Insuf)    .00000     1.0000     1.0000    
+Atendimento CODU.Queue.NumberInQueue        .11047     (Insuf)    .00000     1.0000     .00000    
+Deslocação ao Local.Queue.NumberInQueue     .41537     (Insuf)    .00000     1.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Pedido.NumberIn                             2.0000    
+Pedido.NumberOut                            .00000    
+Ambulância.NumberSeized                     1.0000    
+Ambulância.ScheduledUtilization             .72946    
+Atendedor.NumberSeized                      2.0000    
+Atendedor.ScheduledUtilization              .58463    
+Enfermeiro.NumberSeized                     1.0000    
+Enfermeiro.ScheduledUtilization             .72946    
+Médico.NumberSeized                         1.0000    
+Médico.ScheduledUtilization                 .72946    
+Bombeiro.NumberSeized                       2.0000    
+Bombeiro.ScheduledUtilization               .72946    
+System.NumberOut                            .00000    
+

@@ -1,0 +1,86 @@
+[RESOURCES]
+dealer
+bartender
+AtmFichas
+Roleta
+StotMachine
+dealerCartas
+seguranca
+[VARIABLES]
+totalClientes
+Ser atendido.NumberIn
+premioPoker
+Saida.NumberOut
+Casino Aberto.NumberOut True
+Voltar Roleta.NumberOut True
+Repete Blackjack.NumberOut True
+Obter Fichas.VATime
+SlotMachines.NumberIn
+Jogar Roleta.VATime
+Repete Blackjack.NumberOut False
+Bingo.NumberOut
+Ganha ou perde Bingo?.NumberOut True
+SlotMachines.NumberOut
+FazerCredito.VATime
+Bingo.VATime
+Devolver Dinheiro.NumberOut
+FazerCredito.NumberIn
+Devolver Dinheiro.NumberIn
+Chegada de Taxi.NumberOut
+SlotMachines.VATime
+FazerCredito.NumberOut
+Ser atendido.NumberOut
+Jogar Poker.VATime
+FazerCredito.WaitTime
+Separate 4.NumberOut Orig
+Jogar Poker.NumberOut
+Jogar Poker.NumberIn
+Chegada de Carro.NumberOut
+Voltar Vermelhinha.NumberOut True
+Esperar Ajuda.VATime
+Voltar Vermelhinha.NumberOut False
+Repetir Slot.NumberOut False
+Bingo.WaitTime
+Jogar Blackjack.WaitTime
+Escolher Jogo.NumberOut False
+SlotMachines.WaitTime
+Jogar Roleta.WaitTime
+Voltar Roleta.NumberOut False
+Jogar Blackjack.VATime
+Jogar Blackjack.NumberOut
+Obter Fichas.WaitTime
+Obter Fichas.NumberOut
+Decidir Imagem.NumberOut True
+Repetir Slot.NumberOut True
+Devolver Dinheiro.WaitTime
+Ganha ou perde?.NumberOut False
+Vermelhinha.VATime
+Ganha ou perde?.NumberOut True
+Saida Cliente.NumberOut
+Esperar Ajuda.NumberOut
+Repetir Poker.NumberOut False
+Jogar Blackjack.NumberIn
+Jogar Roleta.NumberIn
+Ser atendido.VATime
+Separar Jogadores Bingo.NumberOut Orig
+Jogar Roleta.NumberOut
+Juntar Poker.NumberOut
+Esperar Ajuda.NumberIn
+Jogar Poker.WaitTime
+Ser atendido.WaitTime
+Decidir Imagem.NumberOut False
+Vermelhinha.NumberIn
+Chegada a Pe.NumberOut
+Vermelhinha.NumberOut
+Agrupar Bingo.NumberOut
+Bingo.NumberIn
+Escolher Jogo.NumberOut True
+Obter Fichas.NumberIn
+Vermelhinha.WaitTime
+Casino Aberto.NumberOut False
+Esperar Ajuda.WaitTime
+Repetir Poker.NumberOut True
+lucro
+Devolver Dinheiro.VATime
+pokerRate
+Ganha ou perde Bingo?.NumberOut False

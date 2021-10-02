@@ -1,0 +1,63 @@
+[RESOURCES]
+dealer
+bartender
+AtmFichas
+Roleta
+StotMachine
+dealerCartas
+seguranca
+[VARIABLES]
+Ser atendido.NumberIn
+premioPoker
+Saida.NumberOut
+Casino Aberto.NumberOut True
+Voltar Roleta.NumberOut True
+Repete Blackjack.NumberOut True
+SlotMachines.NumberIn
+Repete Blackjack.NumberOut False
+Bingo.NumberOut
+Ganha ou perde Bingo?.NumberOut True
+SlotMachines.NumberOut
+Devolver Dinheiro.NumberOut
+FazerCredito.NumberIn
+Devolver Dinheiro.NumberIn
+Chegada de Taxi.NumberOut
+FazerCredito.NumberOut
+Ser atendido.NumberOut
+Separar Poker.NumberOut Orig
+Jogar Poker.NumberOut
+Jogar Poker.NumberIn
+Chegada de Carro.NumberOut
+Voltar Vermelhinha.NumberOut True
+Voltar Vermelhinha.NumberOut False
+Repetir Slot.NumberOut False
+Escolher Jogo.NumberOut False
+Voltar Roleta.NumberOut False
+Jogar Blackjack.NumberOut
+Obter Fichas.NumberOut
+Decidir Imagem.NumberOut True
+Repetir Slot.NumberOut True
+Ganha ou perde?.NumberOut False
+Ganha ou perde?.NumberOut True
+Saida Cliente.NumberOut
+Esperar Ajuda.NumberOut
+Repetir Poker.NumberOut False
+Jogar Blackjack.NumberIn
+Jogar Roleta.NumberIn
+Separar Jogadores Bingo.NumberOut Orig
+Jogar Roleta.NumberOut
+Juntar Poker.NumberOut
+Esperar Ajuda.NumberIn
+Decidir Imagem.NumberOut False
+Vermelhinha.NumberIn
+Chegada a Pe.NumberOut
+Vermelhinha.NumberOut
+Agrupar Bingo.NumberOut
+Bingo.NumberIn
+Escolher Jogo.NumberOut True
+Obter Fichas.NumberIn
+Casino Aberto.NumberOut False
+Repetir Poker.NumberOut True
+lucro
+pokerRate
+Ganha ou perde Bingo?.NumberOut False

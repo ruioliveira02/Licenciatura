@@ -1,0 +1,877 @@
+SIMAN Run Controller.
+
+5.4312448 Hours>
+5.4312448 Hours>
+5.4312448 Hours>
+5.4312448 Hours>
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 1 of 8
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Roda.VATime                                     --         --         --         --          0
+Roda.NVATime                                    --         --         --         --          0
+Roda.WaitTime                                   --         --         --         --          0
+Roda.TranTime                                   --         --         --         --          0
+Roda.OtherTime                                  --         --         --         --          0
+Roda.TotalTime                                  --         --         --         --          0
+Entity 1.VATime                             1.7064     (Insuf)    1.4698     1.9245         16    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         16    
+Entity 1.WaitTime                           1.9206     (Insuf)    1.0638     3.6096         16    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         16    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         16    
+Entity 1.TotalTime                          2.8303     (Insuf)    1.9366     4.1310         16    
+Quadro.VATime                                   --         --         --         --          0
+Quadro.NVATime                                  --         --         --         --          0
+Quadro.WaitTime                                 --         --         --         --          0
+Quadro.TranTime                                 --         --         --         --          0
+Quadro.OtherTime                                --         --         --         --          0
+Quadro.TotalTime                                --         --         --         --          0
+Forqueta.VATime                                 --         --         --         --          0
+Forqueta.NVATime                                --         --         --         --          0
+Forqueta.WaitTime                               --         --         --         --          0
+Forqueta.TranTime                               --         --         --         --          0
+Forqueta.OtherTime                              --         --         --         --          0
+Forqueta.TotalTime                              --         --         --         --          0
+Agrupar Travoes.Queue.WaitingTime           .14478     (Insuf)    .00000     1.0164         36    
+Juntar Quadro e Forqueta.Queue1.WaitingTim  .75667     (Insuf)    .00000     1.5256         32    
+Juntar Quadro e Forqueta.Queue2.WaitingTim  .02564     (Insuf)    .00000     .37415         32    
+Juntar Rodas.Queue2.WaitingTime             .10567     (Insuf)    .00000     .66968         25    
+Juntar Rodas.Queue1.WaitingTime             .23099     (Insuf)    .00000     .79285         25    
+Agrupar Rodas.Queue.WaitingTime             .07880     (Insuf)    .00000     .53657         50    
+Juntar Travoes.Queue1.WaitingTime           .50707     (Insuf)    .00000     2.0032         18    
+Juntar Travoes.Queue2.WaitingTime           .17981     (Insuf)    .00000     .70064         18    
+Montagem 3.Queue.WaitingTime                .05012     (Insuf)    .00000     .41427         18    
+Montagem 2.Queue.WaitingTime                .03892     (Insuf)    .00000     .19757         25    
+Montagem 1.Queue.WaitingTime                .30012     (Insuf)    .00000     .84420         30    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Roda.WIP                                    23.597     (Insuf)    .00000     40.000     37.000    
+Entity 1.WIP                                10.382     (Insuf)    .00000     19.000     9.0000    
+Quadro.WIP                                  13.324     (Insuf)    .00000     29.000     29.000    
+Forqueta.WIP                                17.232     (Insuf)    .00000     34.000     32.000    
+Operador 3.NumberBusy                       2.0144     (Insuf)    .00000     3.0000     2.0000    
+Operador 3.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Operador 3.Utilization                      .67148     (Insuf)    .00000     1.0000     .66667    
+Operador 2.NumberBusy                       1.4973     (Insuf)    .00000     2.0000     1.0000    
+Operador 2.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Operador 2.Utilization                      .74865     (Insuf)    .00000     1.0000     .50000    
+Operador 1.NumberBusy                       .85180     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .85180     (Insuf)    .00000     1.0000     1.0000    
+Agrupar Travoes.Queue.NumberInQueue         .65958     (Insuf)    .00000     2.0000     1.0000    
+Juntar Quadro e Forqueta.Queue1.NumberInQu  4.7598     (Insuf)    .00000     13.000     13.000    
+Juntar Quadro e Forqueta.Queue2.NumberInQu  .10256     (Insuf)    .00000     2.0000     .00000    
+Juntar Rodas.Queue2.NumberInQueue           .33022     (Insuf)    .00000     3.0000     .00000    
+Juntar Rodas.Queue1.NumberInQueue           .88563     (Insuf)    .00000     4.0000     4.0000    
+Agrupar Rodas.Queue.NumberInQueue           .51070     (Insuf)    .00000     2.0000     1.0000    
+Juntar Travoes.Queue1.NumberInQueue         1.7778     (Insuf)    .00000     6.0000     6.0000    
+Juntar Travoes.Queue2.NumberInQueue         .40457     (Insuf)    .00000     3.0000     .00000    
+Montagem 3.Queue.NumberInQueue              .11278     (Insuf)    .00000     1.0000     .00000    
+Montagem 2.Queue.NumberInQueue              .12164     (Insuf)    .00000     1.0000     .00000    
+Montagem 1.Queue.NumberInQueue              1.3035     (Insuf)    .00000     6.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Roda.NumberIn                               101.00    
+Roda.NumberOut                              64.000    
+Entity 1.NumberIn                           73.000    
+Entity 1.NumberOut                          64.000    
+Quadro.NumberIn                             45.000    
+Quadro.NumberOut                            16.000    
+Forqueta.NumberIn                           64.000    
+Forqueta.NumberOut                          32.000    
+Operador 3.NumberSeized                     18.000    
+Operador 3.ScheduledUtilization             .67148    
+Operador 2.NumberSeized                     25.000    
+Operador 2.ScheduledUtilization             .74865    
+Operador 1.NumberSeized                     30.000    
+Operador 1.ScheduledUtilization             .85180    
+System.NumberOut                            16.000    
+
+Beginning replication 2 of 8
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 2 of 8
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Roda.VATime                                     --         --         --         --          0
+Roda.NVATime                                    --         --         --         --          0
+Roda.WaitTime                                   --         --         --         --          0
+Roda.TranTime                                   --         --         --         --          0
+Roda.OtherTime                                  --         --         --         --          0
+Roda.TotalTime                                  --         --         --         --          0
+Entity 1.VATime                             1.6452     (Insuf)    1.4319     1.7829         17    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         17    
+Entity 1.WaitTime                           3.5718     (Insuf)    1.2584     5.3837         17    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         17    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         17    
+Entity 1.TotalTime                          2.9762     (Insuf)    1.8330     3.6330         17    
+Quadro.VATime                                   --         --         --         --          0
+Quadro.NVATime                                  --         --         --         --          0
+Quadro.WaitTime                                 --         --         --         --          0
+Quadro.TranTime                                 --         --         --         --          0
+Quadro.OtherTime                                --         --         --         --          0
+Quadro.TotalTime                                --         --         --         --          0
+Forqueta.VATime                                 --         --         --         --          0
+Forqueta.NVATime                                --         --         --         --          0
+Forqueta.WaitTime                               --         --         --         --          0
+Forqueta.TranTime                               --         --         --         --          0
+Forqueta.OtherTime                              --         --         --         --          0
+Forqueta.TotalTime                              --         --         --         --          0
+Agrupar Travoes.Queue.WaitingTime           .06515     (Insuf)    .00000     .52959         56    
+Juntar Quadro e Forqueta.Queue1.WaitingTim  1.4406     (Insuf)    .00000     3.1608         23    
+Juntar Quadro e Forqueta.Queue2.WaitingTim  .00000     (Insuf)    .00000     .00000         23    
+Juntar Rodas.Queue2.WaitingTime             .71185     (Insuf)    .00000     1.5980         21    
+Juntar Rodas.Queue1.WaitingTime             .02473     (Insuf)    .00000     .27544         21    
+Agrupar Rodas.Queue.WaitingTime             .06532     (Insuf)    .00000     .41160         56    
+Juntar Travoes.Queue1.WaitingTime           .00000     (Insuf)    .00000     .00000         20    
+Juntar Travoes.Queue2.WaitingTime           1.5741     (Insuf)    .47062     2.2420         20    
+Montagem 3.Queue.WaitingTime                .07299     (Insuf)    .00000     .34657         20    
+Montagem 2.Queue.WaitingTime                .00701     (Insuf)    .00000     .12144         21    
+Montagem 1.Queue.WaitingTime                .07386     (Insuf)    .00000     .44669         22    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Roda.WIP                                    22.830     (Insuf)    .00000     42.000     37.000    
+Entity 1.WIP                                24.357     (Insuf)    .00000     36.000     36.000    
+Quadro.WIP                                  11.476     (Insuf)    .00000     21.000     21.000    
+Forqueta.WIP                                9.0311     (Insuf)    .00000     14.000     12.000    
+Operador 3.NumberBusy                       2.1757     (Insuf)    .00000     3.0000     3.0000    
+Operador 3.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Operador 3.Utilization                      .72525     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       1.1994     (Insuf)    .00000     2.0000     1.0000    
+Operador 2.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Operador 2.Utilization                      .59970     (Insuf)    .00000     1.0000     .50000    
+Operador 1.NumberBusy                       .63769     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .63769     (Insuf)    .00000     1.0000     1.0000    
+Agrupar Travoes.Queue.NumberInQueue         .45604     (Insuf)    .00000     2.0000     .00000    
+Juntar Quadro e Forqueta.Queue1.NumberInQu  6.9613     (Insuf)    .00000     15.000     15.000    
+Juntar Quadro e Forqueta.Queue2.NumberInQu  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Rodas.Queue2.NumberInQueue           2.6898     (Insuf)    .00000     7.0000     7.0000    
+Juntar Rodas.Queue1.NumberInQueue           .06493     (Insuf)    .00000     1.0000     .00000    
+Agrupar Rodas.Queue.NumberInQueue           .45727     (Insuf)    .00000     2.0000     .00000    
+Juntar Travoes.Queue1.NumberInQueue         .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Travoes.Queue2.NumberInQueue         4.8228     (Insuf)    .00000     8.0000     8.0000    
+Montagem 3.Queue.NumberInQueue              .18247     (Insuf)    .00000     1.0000     .00000    
+Montagem 2.Queue.NumberInQueue              .01841     (Insuf)    .00000     1.0000     .00000    
+Montagem 1.Queue.NumberInQueue              .23693     (Insuf)    .00000     2.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Roda.NumberIn                               105.00    
+Roda.NumberOut                              68.000    
+Entity 1.NumberIn                           104.00    
+Entity 1.NumberOut                          68.000    
+Quadro.NumberIn                             38.000    
+Quadro.NumberOut                            17.000    
+Forqueta.NumberIn                           46.000    
+Forqueta.NumberOut                          34.000    
+Operador 3.NumberSeized                     20.000    
+Operador 3.ScheduledUtilization             .72525    
+Operador 2.NumberSeized                     21.000    
+Operador 2.ScheduledUtilization             .59970    
+Operador 1.NumberSeized                     22.000    
+Operador 1.ScheduledUtilization             .63769    
+System.NumberOut                            17.000    
+
+Beginning replication 3 of 8
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 3 of 8
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Roda.VATime                                     --         --         --         --          0
+Roda.NVATime                                    --         --         --         --          0
+Roda.WaitTime                                   --         --         --         --          0
+Roda.TranTime                                   --         --         --         --          0
+Roda.OtherTime                                  --         --         --         --          0
+Roda.TotalTime                                  --         --         --         --          0
+Entity 1.VATime                             1.6763     (Insuf)    1.4677     1.9310         20    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         20    
+Entity 1.WaitTime                           1.9534     (Insuf)    .70843     3.1322         20    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         20    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         20    
+Entity 1.TotalTime                          2.9001     (Insuf)    1.6062     3.6770         20    
+Quadro.VATime                                   --         --         --         --          0
+Quadro.NVATime                                  --         --         --         --          0
+Quadro.WaitTime                                 --         --         --         --          0
+Quadro.TranTime                                 --         --         --         --          0
+Quadro.OtherTime                                --         --         --         --          0
+Quadro.TotalTime                                --         --         --         --          0
+Forqueta.VATime                                 --         --         --         --          0
+Forqueta.NVATime                                --         --         --         --          0
+Forqueta.WaitTime                               --         --         --         --          0
+Forqueta.TranTime                               --         --         --         --          0
+Forqueta.OtherTime                              --         --         --         --          0
+Forqueta.TotalTime                              --         --         --         --          0
+Agrupar Travoes.Queue.WaitingTime           .06183     (Insuf)    .00000     .31718         46    
+Juntar Quadro e Forqueta.Queue1.WaitingTim  .00281     (Insuf)    .00000     .07507         31    
+Juntar Quadro e Forqueta.Queue2.WaitingTim  .61042     (Insuf)    .00000     2.1255         31    
+Juntar Rodas.Queue2.WaitingTime             .81610     (Insuf)    .01619     2.0116         30    
+Juntar Rodas.Queue1.WaitingTime             .00000     (Insuf)    .00000     .00000         30    
+Agrupar Rodas.Queue.WaitingTime             .05244     (Insuf)    .00000     .47685         76    
+Juntar Travoes.Queue1.WaitingTime           .24355     (Insuf)    .00000     1.1402         23    
+Juntar Travoes.Queue2.WaitingTime           .10188     (Insuf)    .00000     .39267         23    
+Montagem 3.Queue.WaitingTime                .38601     (Insuf)    .00000     .99516         23    
+Montagem 2.Queue.WaitingTime                .05908     (Insuf)    .00000     .25335         30    
+Montagem 1.Queue.WaitingTime                .29591     (Insuf)    .00000     .79025         31    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Roda.WIP                                    38.417     (Insuf)    .00000     64.000     64.000    
+Entity 1.WIP                                16.037     (Insuf)    .00000     25.000     13.000    
+Quadro.WIP                                  8.7181     (Insuf)    .00000     12.000     11.000    
+Forqueta.WIP                                20.208     (Insuf)    .00000     29.000     27.000    
+Operador 3.NumberBusy                       2.5883     (Insuf)    .00000     3.0000     3.0000    
+Operador 3.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Operador 3.Utilization                      .86277     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       1.7220     (Insuf)    .00000     2.0000     2.0000    
+Operador 2.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Operador 2.Utilization                      .86103     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       .90596     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .90596     (Insuf)    .00000     1.0000     1.0000    
+Agrupar Travoes.Queue.NumberInQueue         .36667     (Insuf)    .00000     2.0000     1.0000    
+Juntar Quadro e Forqueta.Queue1.NumberInQu  .01089     (Insuf)    .00000     1.0000     .00000    
+Juntar Quadro e Forqueta.Queue2.NumberInQu  2.7941     (Insuf)    .00000     9.0000     5.0000    
+Juntar Rodas.Queue2.NumberInQueue           3.7668     (Insuf)    .00000     9.0000     8.0000    
+Juntar Rodas.Queue1.NumberInQueue           .00000     (Insuf)    .00000     1.0000     .00000    
+Agrupar Rodas.Queue.NumberInQueue           .49823     (Insuf)    .00000     2.0000     .00000    
+Juntar Travoes.Queue1.NumberInQueue         1.0129     (Insuf)    .00000     5.0000     5.0000    
+Juntar Travoes.Queue2.NumberInQueue         .29290     (Insuf)    .00000     2.0000     .00000    
+Montagem 3.Queue.NumberInQueue              1.1097     (Insuf)    .00000     3.0000     .00000    
+Montagem 2.Queue.NumberInQueue              .22156     (Insuf)    .00000     2.0000     .00000    
+Montagem 1.Queue.NumberInQueue              1.1466     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Roda.NumberIn                               144.00    
+Roda.NumberOut                              80.000    
+Entity 1.NumberIn                           93.000    
+Entity 1.NumberOut                          80.000    
+Quadro.NumberIn                             31.000    
+Quadro.NumberOut                            20.000    
+Forqueta.NumberIn                           67.000    
+Forqueta.NumberOut                          40.000    
+Operador 3.NumberSeized                     23.000    
+Operador 3.ScheduledUtilization             .86277    
+Operador 2.NumberSeized                     30.000    
+Operador 2.ScheduledUtilization             .86103    
+Operador 1.NumberSeized                     31.000    
+Operador 1.ScheduledUtilization             .90596    
+System.NumberOut                            20.000    
+
+Beginning replication 4 of 8
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 4 of 8
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Roda.VATime                                     --         --         --         --          0
+Roda.NVATime                                    --         --         --         --          0
+Roda.WaitTime                                   --         --         --         --          0
+Roda.TranTime                                   --         --         --         --          0
+Roda.OtherTime                                  --         --         --         --          0
+Roda.TotalTime                                  --         --         --         --          0
+Entity 1.VATime                             1.6759     (Insuf)    1.4094     1.8908         17    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         17    
+Entity 1.WaitTime                           3.2657     (Insuf)    .82159     5.6155         17    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         17    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         17    
+Entity 1.TotalTime                          3.1185     (Insuf)    1.7421     3.7851         17    
+Quadro.VATime                                   --         --         --         --          0
+Quadro.NVATime                                  --         --         --         --          0
+Quadro.WaitTime                                 --         --         --         --          0
+Quadro.TranTime                                 --         --         --         --          0
+Quadro.OtherTime                                --         --         --         --          0
+Quadro.TotalTime                                --         --         --         --          0
+Forqueta.VATime                                 --         --         --         --          0
+Forqueta.NVATime                                --         --         --         --          0
+Forqueta.WaitTime                               --         --         --         --          0
+Forqueta.TranTime                               --         --         --         --          0
+Forqueta.OtherTime                              --         --         --         --          0
+Forqueta.TotalTime                              --         --         --         --          0
+Agrupar Travoes.Queue.WaitingTime           .07485     (Insuf)    .00000     .41530         56    
+Juntar Quadro e Forqueta.Queue1.WaitingTim  .85934     (Insuf)    .00000     1.4753         25    
+Juntar Quadro e Forqueta.Queue2.WaitingTim  .00000     (Insuf)    .00000     .00000         25    
+Juntar Rodas.Queue2.WaitingTime             1.1012     (Insuf)    .14315     2.1857         23    
+Juntar Rodas.Queue1.WaitingTime             .00000     (Insuf)    .00000     .00000         23    
+Agrupar Rodas.Queue.WaitingTime             .07526     (Insuf)    .00000     .43951         58    
+Juntar Travoes.Queue1.WaitingTime           .00000     (Insuf)    .00000     .00000         22    
+Juntar Travoes.Queue2.WaitingTime           1.1239     (Insuf)    .31418     2.0327         22    
+Montagem 3.Queue.WaitingTime                .24223     (Insuf)    .00000     .59206         20    
+Montagem 2.Queue.WaitingTime                .03843     (Insuf)    .00000     .29704         23    
+Montagem 1.Queue.WaitingTime                .11233     (Insuf)    .00000     .58653         24    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Roda.WIP                                    29.726     (Insuf)    .00000     45.000     43.000    
+Entity 1.WIP                                24.023     (Insuf)    .00000     41.000     39.000    
+Quadro.WIP                                  8.0872     (Insuf)    .00000     12.000     9.0000    
+Forqueta.WIP                                10.781     (Insuf)    .00000     16.000     16.000    
+Operador 3.NumberBusy                       2.2095     (Insuf)    .00000     3.0000     3.0000    
+Operador 3.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Operador 3.Utilization                      .73652     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       1.3772     (Insuf)    .00000     2.0000     1.0000    
+Operador 2.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Operador 2.Utilization                      .68862     (Insuf)    .00000     1.0000     .50000    
+Operador 1.NumberBusy                       .69903     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .69903     (Insuf)    .00000     1.0000     1.0000    
+Agrupar Travoes.Queue.NumberInQueue         .54865     (Insuf)    .00000     2.0000     1.0000    
+Juntar Quadro e Forqueta.Queue1.NumberInQu  2.6967     (Insuf)    .00000     7.0000     1.0000    
+Juntar Quadro e Forqueta.Queue2.NumberInQu  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Rodas.Queue2.NumberInQueue           3.9345     (Insuf)    .00000     9.0000     6.0000    
+Juntar Rodas.Queue1.NumberInQueue           .00000     (Insuf)    .00000     1.0000     .00000    
+Agrupar Rodas.Queue.NumberInQueue           .55739     (Insuf)    .00000     2.0000     1.0000    
+Juntar Travoes.Queue1.NumberInQueue         .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Travoes.Queue2.NumberInQueue         4.0203     (Insuf)    .00000     10.000     6.0000    
+Montagem 3.Queue.NumberInQueue              .64396     (Insuf)    .00000     2.0000     2.0000    
+Montagem 2.Queue.NumberInQueue              .11047     (Insuf)    .00000     1.0000     .00000    
+Montagem 1.Queue.NumberInQueue              .35030     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Roda.NumberIn                               111.00    
+Roda.NumberOut                              68.000    
+Entity 1.NumberIn                           107.00    
+Entity 1.NumberOut                          68.000    
+Quadro.NumberIn                             26.000    
+Quadro.NumberOut                            17.000    
+Forqueta.NumberIn                           50.000    
+Forqueta.NumberOut                          34.000    
+Operador 3.NumberSeized                     20.000    
+Operador 3.ScheduledUtilization             .73652    
+Operador 2.NumberSeized                     23.000    
+Operador 2.ScheduledUtilization             .68862    
+Operador 1.NumberSeized                     24.000    
+Operador 1.ScheduledUtilization             .69903    
+System.NumberOut                            17.000    
+
+Beginning replication 5 of 8
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 5 of 8
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Roda.VATime                                     --         --         --         --          0
+Roda.NVATime                                    --         --         --         --          0
+Roda.WaitTime                                   --         --         --         --          0
+Roda.TranTime                                   --         --         --         --          0
+Roda.OtherTime                                  --         --         --         --          0
+Roda.TotalTime                                  --         --         --         --          0
+Entity 1.VATime                             1.6535     (Insuf)    1.4416     1.9117         18    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         18    
+Entity 1.WaitTime                           3.7810     (Insuf)    .69608     5.3682         18    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         18    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         18    
+Entity 1.TotalTime                          3.4830     (Insuf)    1.6383     4.8424         18    
+Quadro.VATime                                   --         --         --         --          0
+Quadro.NVATime                                  --         --         --         --          0
+Quadro.WaitTime                                 --         --         --         --          0
+Quadro.TranTime                                 --         --         --         --          0
+Quadro.OtherTime                                --         --         --         --          0
+Quadro.TotalTime                                --         --         --         --          0
+Forqueta.VATime                                 --         --         --         --          0
+Forqueta.NVATime                                --         --         --         --          0
+Forqueta.WaitTime                               --         --         --         --          0
+Forqueta.TranTime                               --         --         --         --          0
+Forqueta.OtherTime                              --         --         --         --          0
+Forqueta.TotalTime                              --         --         --         --          0
+Agrupar Travoes.Queue.WaitingTime           .07788     (Insuf)    .00000     .72763         54    
+Juntar Quadro e Forqueta.Queue1.WaitingTim  .90118     (Insuf)    .00000     1.4569         33    
+Juntar Quadro e Forqueta.Queue2.WaitingTim  .02927     (Insuf)    .00000     .51346         33    
+Juntar Rodas.Queue2.WaitingTime             1.0071     (Insuf)    .00000     1.6043         29    
+Juntar Rodas.Queue1.WaitingTime             .00165     (Insuf)    .00000     .04790         29    
+Agrupar Rodas.Queue.WaitingTime             .05561     (Insuf)    .00000     .38223         66    
+Juntar Travoes.Queue1.WaitingTime           .00186     (Insuf)    .00000     .04829         26    
+Juntar Travoes.Queue2.WaitingTime           .60751     (Insuf)    .00000     1.1360         26    
+Montagem 3.Queue.WaitingTime                .43578     (Insuf)    .00000     1.3439         21    
+Montagem 2.Queue.WaitingTime                .04662     (Insuf)    .00000     .19396         28    
+Montagem 1.Queue.WaitingTime                .81934     (Insuf)    .00000     1.9681         30    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Roda.WIP                                    34.499     (Insuf)    .00000     56.000     56.000    
+Entity 1.WIP                                22.385     (Insuf)    .00000     38.000     36.000    
+Quadro.WIP                                  13.925     (Insuf)    .00000     19.000     18.000    
+Forqueta.WIP                                20.112     (Insuf)    .00000     38.000     30.000    
+Operador 3.NumberBusy                       2.3535     (Insuf)    .00000     3.0000     3.0000    
+Operador 3.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Operador 3.Utilization                      .78452     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       1.5131     (Insuf)    .00000     2.0000     2.0000    
+Operador 2.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Operador 2.Utilization                      .75657     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       .84859     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .84859     (Insuf)    .00000     1.0000     1.0000    
+Agrupar Travoes.Queue.NumberInQueue         .53023     (Insuf)    .00000     2.0000     1.0000    
+Juntar Quadro e Forqueta.Queue1.NumberInQu  3.9295     (Insuf)    .00000     10.000     3.0000    
+Juntar Quadro e Forqueta.Queue2.NumberInQu  .12075     (Insuf)    .00000     2.0000     .00000    
+Juntar Rodas.Queue2.NumberInQueue           3.8170     (Insuf)    .00000     7.0000     4.0000    
+Juntar Rodas.Queue1.NumberInQueue           .00599     (Insuf)    .00000     1.0000     .00000    
+Agrupar Rodas.Queue.NumberInQueue           .45877     (Insuf)    .00000     2.0000     .00000    
+Juntar Travoes.Queue1.NumberInQueue         .00604     (Insuf)    .00000     1.0000     .00000    
+Juntar Travoes.Queue2.NumberInQueue         2.0136     (Insuf)    .00000     5.0000     1.0000    
+Montagem 3.Queue.NumberInQueue              1.6001     (Insuf)    .00000     6.0000     5.0000    
+Montagem 2.Queue.NumberInQueue              .17468     (Insuf)    .00000     1.0000     1.0000    
+Montagem 1.Queue.NumberInQueue              3.4937     (Insuf)    .00000     9.0000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Roda.NumberIn                               128.00    
+Roda.NumberOut                              72.000    
+Entity 1.NumberIn                           108.00    
+Entity 1.NumberOut                          72.000    
+Quadro.NumberIn                             36.000    
+Quadro.NumberOut                            18.000    
+Forqueta.NumberIn                           66.000    
+Forqueta.NumberOut                          36.000    
+Operador 3.NumberSeized                     21.000    
+Operador 3.ScheduledUtilization             .78452    
+Operador 2.NumberSeized                     28.000    
+Operador 2.ScheduledUtilization             .75657    
+Operador 1.NumberSeized                     30.000    
+Operador 1.ScheduledUtilization             .84859    
+System.NumberOut                            18.000    
+
+Beginning replication 6 of 8
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 6 of 8
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Roda.VATime                                     --         --         --         --          0
+Roda.NVATime                                    --         --         --         --          0
+Roda.WaitTime                                   --         --         --         --          0
+Roda.TranTime                                   --         --         --         --          0
+Roda.OtherTime                                  --         --         --         --          0
+Roda.TotalTime                                  --         --         --         --          0
+Entity 1.VATime                             1.6093     (Insuf)    1.4139     1.9032         20    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         20    
+Entity 1.WaitTime                           2.6926     (Insuf)    .69425     3.8551         20    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         20    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         20    
+Entity 1.TotalTime                          3.6843     (Insuf)    1.5153     5.0524         20    
+Quadro.VATime                                   --         --         --         --          0
+Quadro.NVATime                                  --         --         --         --          0
+Quadro.WaitTime                                 --         --         --         --          0
+Quadro.TranTime                                 --         --         --         --          0
+Quadro.OtherTime                                --         --         --         --          0
+Quadro.TotalTime                                --         --         --         --          0
+Forqueta.VATime                                 --         --         --         --          0
+Forqueta.NVATime                                --         --         --         --          0
+Forqueta.WaitTime                               --         --         --         --          0
+Forqueta.TranTime                               --         --         --         --          0
+Forqueta.OtherTime                              --         --         --         --          0
+Forqueta.TotalTime                              --         --         --         --          0
+Agrupar Travoes.Queue.WaitingTime           .08243     (Insuf)    .00000     .40366         46    
+Juntar Quadro e Forqueta.Queue1.WaitingTim  .68575     (Insuf)    .00000     1.6342         31    
+Juntar Quadro e Forqueta.Queue2.WaitingTim  .06764     (Insuf)    .00000     .71688         31    
+Juntar Rodas.Queue2.WaitingTime             .01989     (Insuf)    .00000     .27905         25    
+Juntar Rodas.Queue1.WaitingTime             .64600     (Insuf)    .00000     1.3529         25    
+Agrupar Rodas.Queue.WaitingTime             .06843     (Insuf)    .00000     .45208         50    
+Juntar Travoes.Queue1.WaitingTime           .11973     (Insuf)    .00000     .56199         23    
+Juntar Travoes.Queue2.WaitingTime           .24630     (Insuf)    .00000     .97452         23    
+Montagem 3.Queue.WaitingTime                .10539     (Insuf)    .00000     .41441         23    
+Montagem 2.Queue.WaitingTime                .03300     (Insuf)    .00000     .24861         25    
+Montagem 1.Queue.WaitingTime                .40105     (Insuf)    .00000     .99370         29    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Roda.WIP                                    18.894     (Insuf)    .00000     32.000     20.000    
+Entity 1.WIP                                13.584     (Insuf)    .00000     23.000     13.000    
+Quadro.WIP                                  11.772     (Insuf)    .00000     16.000     11.000    
+Forqueta.WIP                                18.574     (Insuf)    .00000     26.000     24.000    
+Operador 3.NumberBusy                       2.4337     (Insuf)    .00000     3.0000     3.0000    
+Operador 3.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Operador 3.Utilization                      .81124     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       1.3690     (Insuf)    .00000     2.0000     1.0000    
+Operador 2.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Operador 2.Utilization                      .68450     (Insuf)    .00000     1.0000     .50000    
+Operador 1.NumberBusy                       .85281     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .85281     (Insuf)    .00000     1.0000     1.0000    
+Agrupar Travoes.Queue.NumberInQueue         .51350     (Insuf)    .00000     2.0000     1.0000    
+Juntar Quadro e Forqueta.Queue1.NumberInQu  2.6572     (Insuf)    .00000     8.0000     .00000    
+Juntar Quadro e Forqueta.Queue2.NumberInQu  .34404     (Insuf)    .00000     5.0000     2.0000    
+Juntar Rodas.Queue2.NumberInQueue           .06216     (Insuf)    .00000     1.0000     .00000    
+Juntar Rodas.Queue1.NumberInQueue           2.2002     (Insuf)    .00000     5.0000     3.0000    
+Agrupar Rodas.Queue.NumberInQueue           .42766     (Insuf)    .00000     2.0000     .00000    
+Juntar Travoes.Queue1.NumberInQueue         .36126     (Insuf)    .00000     3.0000     1.0000    
+Juntar Travoes.Queue2.NumberInQueue         .70812     (Insuf)    .00000     3.0000     .00000    
+Montagem 3.Queue.NumberInQueue              .30301     (Insuf)    .00000     2.0000     .00000    
+Montagem 2.Queue.NumberInQueue              .10314     (Insuf)    .00000     2.0000     .00000    
+Montagem 1.Queue.NumberInQueue              1.4921     (Insuf)    .00000     5.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Roda.NumberIn                               100.00    
+Roda.NumberOut                              80.000    
+Entity 1.NumberIn                           93.000    
+Entity 1.NumberOut                          80.000    
+Quadro.NumberIn                             31.000    
+Quadro.NumberOut                            20.000    
+Forqueta.NumberIn                           64.000    
+Forqueta.NumberOut                          40.000    
+Operador 3.NumberSeized                     23.000    
+Operador 3.ScheduledUtilization             .81124    
+Operador 2.NumberSeized                     25.000    
+Operador 2.ScheduledUtilization             .68450    
+Operador 1.NumberSeized                     29.000    
+Operador 1.ScheduledUtilization             .85281    
+System.NumberOut                            20.000    
+
+Beginning replication 7 of 8
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 7 of 8
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Roda.VATime                                     --         --         --         --          0
+Roda.NVATime                                    --         --         --         --          0
+Roda.WaitTime                                   --         --         --         --          0
+Roda.TranTime                                   --         --         --         --          0
+Roda.OtherTime                                  --         --         --         --          0
+Roda.TotalTime                                  --         --         --         --          0
+Entity 1.VATime                             1.6794     (Insuf)    1.4588     1.9365         18    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         18    
+Entity 1.WaitTime                           2.5649     (Insuf)    .90608     3.7925         18    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         18    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         18    
+Entity 1.TotalTime                          3.3457     (Insuf)    1.8562     4.1932         18    
+Quadro.VATime                                   --         --         --         --          0
+Quadro.NVATime                                  --         --         --         --          0
+Quadro.WaitTime                                 --         --         --         --          0
+Quadro.TranTime                                 --         --         --         --          0
+Quadro.OtherTime                                --         --         --         --          0
+Quadro.TotalTime                                --         --         --         --          0
+Forqueta.VATime                                 --         --         --         --          0
+Forqueta.NVATime                                --         --         --         --          0
+Forqueta.WaitTime                               --         --         --         --          0
+Forqueta.TranTime                               --         --         --         --          0
+Forqueta.OtherTime                              --         --         --         --          0
+Forqueta.TotalTime                              --         --         --         --          0
+Agrupar Travoes.Queue.WaitingTime           .10207     (Insuf)    .00000     .75551         46    
+Juntar Quadro e Forqueta.Queue1.WaitingTim  .50183     (Insuf)    .00000     1.6308         29    
+Juntar Quadro e Forqueta.Queue2.WaitingTim  .23065     (Insuf)    .00000     1.0649         29    
+Juntar Rodas.Queue2.WaitingTime             .73973     (Insuf)    .00000     1.5204         27    
+Juntar Rodas.Queue1.WaitingTime             .00724     (Insuf)    .00000     .12939         27    
+Agrupar Rodas.Queue.WaitingTime             .07400     (Insuf)    .00000     .60990         64    
+Juntar Travoes.Queue1.WaitingTime           .47387     (Insuf)    .00000     1.1429         23    
+Juntar Travoes.Queue2.WaitingTime           9.7671E-04 (Insuf)    .00000     .02246         23    
+Montagem 3.Queue.WaitingTime                .23851     (Insuf)    .00000     .65493         21    
+Montagem 2.Queue.WaitingTime                .03368     (Insuf)    .00000     .18465         26    
+Montagem 1.Queue.WaitingTime                .18913     (Insuf)    .00000     .66465         28    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Roda.WIP                                    33.677     (Insuf)    .00000     62.000     52.000    
+Entity 1.WIP                                12.046     (Insuf)    .00000     25.000     20.000    
+Quadro.WIP                                  9.3128     (Insuf)    .00000     13.000     11.000    
+Forqueta.WIP                                15.829     (Insuf)    .00000     26.000     23.000    
+Operador 3.NumberBusy                       2.1881     (Insuf)    .00000     3.0000     3.0000    
+Operador 3.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Operador 3.Utilization                      .72937     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       1.5722     (Insuf)    .00000     2.0000     2.0000    
+Operador 2.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Operador 2.Utilization                      .78613     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       .83741     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .83741     (Insuf)    .00000     1.0000     1.0000    
+Agrupar Travoes.Queue.NumberInQueue         .58692     (Insuf)    .00000     2.0000     .00000    
+Juntar Quadro e Forqueta.Queue1.NumberInQu  1.8191     (Insuf)    .00000     6.0000     .00000    
+Juntar Quadro e Forqueta.Queue2.NumberInQu  .84166     (Insuf)    .00000     4.0000     1.0000    
+Juntar Rodas.Queue2.NumberInQueue           3.0859     (Insuf)    .00000     8.0000     5.0000    
+Juntar Rodas.Queue1.NumberInQueue           .02443     (Insuf)    .00000     1.0000     .00000    
+Agrupar Rodas.Queue.NumberInQueue           .62588     (Insuf)    .00000     2.0000     1.0000    
+Juntar Travoes.Queue1.NumberInQueue         1.3873     (Insuf)    .00000     4.0000     1.0000    
+Juntar Travoes.Queue2.NumberInQueue         .00281     (Insuf)    .00000     1.0000     .00000    
+Montagem 3.Queue.NumberInQueue              .67459     (Insuf)    .00000     3.0000     2.0000    
+Montagem 2.Queue.NumberInQueue              .12623     (Insuf)    .00000     1.0000     1.0000    
+Montagem 1.Queue.NumberInQueue              .68331     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Roda.NumberIn                               124.00    
+Roda.NumberOut                              72.000    
+Entity 1.NumberIn                           92.000    
+Entity 1.NumberOut                          72.000    
+Quadro.NumberIn                             29.000    
+Quadro.NumberOut                            18.000    
+Forqueta.NumberIn                           59.000    
+Forqueta.NumberOut                          36.000    
+Operador 3.NumberSeized                     21.000    
+Operador 3.ScheduledUtilization             .72937    
+Operador 2.NumberSeized                     26.000    
+Operador 2.ScheduledUtilization             .78613    
+Operador 1.NumberSeized                     28.000    
+Operador 1.ScheduledUtilization             .83741    
+System.NumberOut                            18.000    
+
+Beginning replication 8 of 8
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 8 of 8
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Roda.VATime                                     --         --         --         --          0
+Roda.NVATime                                    --         --         --         --          0
+Roda.WaitTime                                   --         --         --         --          0
+Roda.TranTime                                   --         --         --         --          0
+Roda.OtherTime                                  --         --         --         --          0
+Roda.TotalTime                                  --         --         --         --          0
+Entity 1.VATime                             1.6636     (Insuf)    1.3997     1.8615         16    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         16    
+Entity 1.WaitTime                           2.5563     (Insuf)    1.5065     4.4424         16    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         16    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         16    
+Entity 1.TotalTime                          3.3829     (Insuf)    2.2590     3.9818         16    
+Quadro.VATime                                   --         --         --         --          0
+Quadro.NVATime                                  --         --         --         --          0
+Quadro.WaitTime                                 --         --         --         --          0
+Quadro.TranTime                                 --         --         --         --          0
+Quadro.OtherTime                                --         --         --         --          0
+Quadro.TotalTime                                --         --         --         --          0
+Forqueta.VATime                                 --         --         --         --          0
+Forqueta.NVATime                                --         --         --         --          0
+Forqueta.WaitTime                               --         --         --         --          0
+Forqueta.TranTime                               --         --         --         --          0
+Forqueta.OtherTime                              --         --         --         --          0
+Forqueta.TotalTime                              --         --         --         --          0
+Agrupar Travoes.Queue.WaitingTime           .11851     (Insuf)    .00000     1.2185         40    
+Juntar Quadro e Forqueta.Queue1.WaitingTim  .00000     (Insuf)    .00000     .00000         24    
+Juntar Quadro e Forqueta.Queue2.WaitingTim  .91762     (Insuf)    .00000     2.1384         24    
+Juntar Rodas.Queue2.WaitingTime             .61141     (Insuf)    .00000     1.9314         21    
+Juntar Rodas.Queue1.WaitingTime             .17343     (Insuf)    .00000     .73724         21    
+Agrupar Rodas.Queue.WaitingTime             .08662     (Insuf)    .00000     .76127         54    
+Juntar Travoes.Queue1.WaitingTime           .36173     (Insuf)    .00000     1.0635         20    
+Juntar Travoes.Queue2.WaitingTime           .09543     (Insuf)    .00000     .52364         20    
+Montagem 3.Queue.WaitingTime                .20138     (Insuf)    .00000     1.0787         19    
+Montagem 2.Queue.WaitingTime                .04511     (Insuf)    .00000     .23036         21    
+Montagem 1.Queue.WaitingTime                .12399     (Insuf)    .00000     .67021         22    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Roda.WIP                                    25.937     (Insuf)    .00000     42.000     38.000    
+Entity 1.WIP                                11.367     (Insuf)    .00000     31.000     16.000    
+Quadro.WIP                                  6.3131     (Insuf)    .00000     10.000     8.0000    
+Forqueta.WIP                                15.694     (Insuf)    .00000     22.000     19.000    
+Operador 3.NumberBusy                       2.0286     (Insuf)    .00000     3.0000     3.0000    
+Operador 3.NumberScheduled                  3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Operador 3.Utilization                      .67620     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       1.2118     (Insuf)    .00000     2.0000     1.0000    
+Operador 2.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Operador 2.Utilization                      .60593     (Insuf)    .00000     1.0000     .50000    
+Operador 1.NumberBusy                       .65861     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .65861     (Insuf)    .00000     1.0000     1.0000    
+Agrupar Travoes.Queue.NumberInQueue         .59253     (Insuf)    .00000     2.0000     .00000    
+Juntar Quadro e Forqueta.Queue1.NumberInQu  .00000     (Insuf)    .00000     1.0000     .00000    
+Juntar Quadro e Forqueta.Queue2.NumberInQu  3.0684     (Insuf)    .00000     7.0000     3.0000    
+Juntar Rodas.Queue2.NumberInQueue           2.1181     (Insuf)    .00000     6.0000     6.0000    
+Juntar Rodas.Queue1.NumberInQueue           .45524     (Insuf)    .00000     3.0000     .00000    
+Agrupar Rodas.Queue.NumberInQueue           .58470     (Insuf)    .00000     2.0000     .00000    
+Juntar Travoes.Queue1.NumberInQueue         .90433     (Insuf)    .00000     4.0000     .00000    
+Juntar Travoes.Queue2.NumberInQueue         .23858     (Insuf)    .00000     3.0000     .00000    
+Montagem 3.Queue.NumberInQueue              .48630     (Insuf)    .00000     4.0000     1.0000    
+Montagem 2.Queue.NumberInQueue              .11842     (Insuf)    .00000     1.0000     .00000    
+Montagem 1.Queue.NumberInQueue              .44976     (Insuf)    .00000     3.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Roda.NumberIn                               102.00    
+Roda.NumberOut                              64.000    
+Entity 1.NumberIn                           80.000    
+Entity 1.NumberOut                          64.000    
+Quadro.NumberIn                             24.000    
+Quadro.NumberOut                            16.000    
+Forqueta.NumberIn                           51.000    
+Forqueta.NumberOut                          32.000    
+Operador 3.NumberSeized                     19.000    
+Operador 3.ScheduledUtilization             .67620    
+Operador 2.NumberSeized                     21.000    
+Operador 2.ScheduledUtilization             .60593    
+Operador 1.NumberSeized                     22.000    
+Operador 1.ScheduledUtilization             .65861    
+System.NumberOut                            16.000    
+
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Output Summary for 8 Replications
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Roda.NumberIn                               114.37     13.385     100.00     144.00     8
+Roda.NumberOut                              71.000     5.2883     64.000     80.000     8
+Entity 1.NumberIn                           93.750     10.517     73.000     108.00     8
+Entity 1.NumberOut                          71.000     5.2883     64.000     80.000     8
+Quadro.NumberIn                             32.500     5.7410     24.000     45.000     8
+Quadro.NumberOut                            17.750     1.3220     16.000     20.000     8
+Forqueta.NumberIn                           58.375     6.8796     46.000     67.000     8
+Forqueta.NumberOut                          35.500     2.6441     32.000     40.000     8
+Operador 3.NumberSeized                     20.625     1.4781     18.000     23.000     8
+Operador 3.ScheduledUtilization             .74967     .05518     .67148     .86277     8
+Operador 2.NumberSeized                     24.875     2.6606     21.000     30.000     8
+Operador 2.ScheduledUtilization             .71639     .07482     .59970     .86103     8
+Operador 1.NumberSeized                     27.000     3.1286     22.000     31.000     8
+Operador 1.ScheduledUtilization             .78649     .08685     .63769     .90596     8
+System.NumberOut                            17.750     1.3220     16.000     20.000     8
+
+Simulation run time: 0.18 minutes.
+Simulation run complete.

@@ -1,0 +1,25 @@
+[RESOURCES]
+Junior
+LugarEstacionamento
+Senior
+[VARIABLES]
+Estacionar.NumberIn
+Escolha Atendimento.NumberOut True
+Escolha Atendimento.NumberOut False
+Atendimento Doméstico.NumberOut
+Atendimento Doméstico.NumberIn
+Taxi.NumberOut
+Saída.NumberOut
+Atendimento Empresarial.NumberOut
+Atendimento Empresarial.NumberIn
+Chegada Clientes A Pé.NumberOut
+Sair Estacionamento.NumberOut
+Sair Estacionamento.NumberIn
+Domestico Pe.NumberOut True
+Doméstico?.NumberOut False
+Estacionado.NumberOut True
+Estacionado.NumberOut False
+Chegada Clientes de Carro.NumberOut
+Domestico Pe.NumberOut False
+Estacionar.NumberOut
+Doméstico?.NumberOut True

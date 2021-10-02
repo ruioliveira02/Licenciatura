@@ -1,0 +1,15 @@
+[RESOURCES]
+Multibanco
+Funcionário
+[VARIABLES]
+Fila cheia.NumberOut False
+FilaATM
+Entrada.NumberOut
+Saída.NumberOut
+Fila cheia.NumberOut True
+Atendimento.NumberIn
+Atendimento.NumberOut
+ATM.NumberIn
+Escolha.NumberOut False
+ATM.NumberOut
+Escolha.NumberOut True

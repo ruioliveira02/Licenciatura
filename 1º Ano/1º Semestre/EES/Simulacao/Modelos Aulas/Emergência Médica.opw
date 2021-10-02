@@ -1,0 +1,17 @@
+[RESOURCES]
+Ambulância
+Atendedor
+Enfermeiro
+Médico
+Bombeiro
+[VARIABLES]
+Deslocação ao Local.NumberIn
+Deslocação ao Local.NumberOut
+Assistência.NumberIn
+Assistência.NumberOut
+Chegada de Pedidos.NumberOut
+Regresso à Central.NumberIn
+Dispose 1.NumberOut
+Regresso à Central.NumberOut
+Atendimento CODU.NumberOut
+Atendimento CODU.NumberIn

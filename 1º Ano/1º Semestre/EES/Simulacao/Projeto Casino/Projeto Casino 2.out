@@ -1,0 +1,100 @@
+SIMAN Run Controller.
+
+1.4262093 Hours>
+                                      ARENA Simulation Results
+                                     ruipedrooliveira@outlook.pt
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/ 6/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:12/ 6/2020
+
+Replication ended at time      : 15.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+LucroBlackjack                              -141.081   (Insuf)    -2274.36   239.77        261    
+JogosRoleta                                 8.4980     (Insuf)    .00000     106.00        261    
+JogosBingo                                  1.0459     (Insuf)    .00000     11.000        261    
+LucroBingo                                  -2.6820    (Insuf)    -220.000   240.00        261    
+LucroRoleta                                 2.3474     (Insuf)    -729.882   1158.4        261    
+Dinheiro_Inicial                            1302.8     (Insuf)    .09246     6876.0        261    
+JogosBlackjack                              7.8812     (Insuf)    .00000     75.000        261    
+DinheiroGasto                               -244.758   (Insuf)    -3051.17   16840.        261    
+JogosSlot                                   6.8237     (Insuf)    .00000     178.00        261    
+LucroVermelhinha                            -152.107   (Insuf)    -1180.60   43.697        261    
+LucroSlot                                   48.763     (Insuf)    -485.418   17790.        261    
+JogosVermelhinha                            22.620     (Insuf)    .00000     181.00        261    
+JogosPoker                                  .00000     (Insuf)    .00000     .00000        261    
+TempoEstadia                                3.2388     (Insuf)    .11805     14.791        261    
+LucroPoker                                  .00000     (Insuf)    .00000     .00000        261    
+Cliente.VATime                              .91796     (Corr)     .00000     9.1778        519    
+Cliente.NVATime                             .00000     .00000     .00000     .00000        519    
+Cliente.WaitTime                            .08508     (Corr)     .00000     4.1577        519    
+Cliente.TranTime                            .57296     (Corr)     .03333     5.3000        519    
+Cliente.OtherTime                           .06935     (Corr)     .00000     1.2085        519    
+Cliente.TotalTime                           3.2733     (Corr)     .11805     14.824        519    
+Vermelhinha.Queue.WaitingTime               .00000     .00000     .00000     .00000       7178    
+Jogar Poker.Queue.WaitingTime                   --         --         --         --          0
+Ser atendido.Queue.WaitingTime              .00000     .00000     .00000     .00000        502    
+Esperar Ajuda.Queue.WaitingTime                 --         --         --         --          0
+SlotMachines.Queue.WaitingTime              .00000     .00000     .00000     .00000       2154    
+Agrupar Bingo.Queue.WaitingTime             .16313     (Corr)     .00000     2.5269        350    
+Obter Fichas.Queue.WaitingTime              .00000     .00000     .00000     .00000        347    
+Bingo.Queue.WaitingTime                     .00000     (Insuf)    .00000     .00000         35    
+Devolver Dinheiro.Queue.WaitingTime         .00000     (Insuf)    .00000     .00000        261    
+Juntar Poker.Queue.WaitingTime                  --         --         --         --          0
+FazerCredito.Queue.WaitingTime                  --         --         --         --          0
+Jogar Blackjack.Queue.WaitingTime           .00000     .00000     .00000     .00000       2966    
+Jogar Roleta.Queue.WaitingTime              .00000     .00000     .00000     .00000       2724    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Cliente.WIP                                 73.875     (Corr)     .00000     153.00     33.000    
+dealer.NumberBusy                           1.1862     (Insuf)    .00000     3.0000     1.0000    
+bartender.NumberBusy                        .55403     (Corr)     .00000     8.0000     .00000    
+AtmFichas.NumberBusy                        .67485     (Corr)     .00000     15.000     1.0000    
+Roleta.NumberBusy                           3.0373     (Corr)     .00000     13.000     .00000    
+StotMachine.NumberBusy                      1.1977     (Corr)     .00000     6.0000     .00000    
+dealerCartas.NumberBusy                     24.388     (Corr)     .00000     58.000     16.000    
+seguranca.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Vermelhinha.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+Jogar Poker.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+Ser atendido.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Esperar Ajuda.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+SlotMachines.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Agrupar Bingo.Queue.NumberInQueue           3.8064     (Corr)     .00000     10.000     .00000    
+Obter Fichas.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Bingo.Queue.NumberInQueue                   .00000     (Insuf)    .00000     .00000     .00000    
+Devolver Dinheiro.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Juntar Poker.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+FazerCredito.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Jogar Blackjack.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Jogar Roleta.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Cliente.NumberIn                            325.00    
+Cliente.NumberOut                           292.00    
+dealer.NumberSeized                         35.000    
+bartender.NumberSeized                      502.00    
+AtmFichas.NumberSeized                      608.00    
+Roleta.NumberSeized                         2724.0    
+StotMachine.NumberSeized                    2154.0    
+dealerCartas.NumberSeized                   10144.    
+seguranca.NumberSeized                      .00000    
+System.NumberOut                            519.00    
+
+
+Simulation run time: 0.13 minutes.
+Simulation run complete.

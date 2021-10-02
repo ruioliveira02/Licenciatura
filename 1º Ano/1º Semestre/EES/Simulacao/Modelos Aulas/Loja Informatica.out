@@ -1,0 +1,117 @@
+
+----------------------------------------------------------------------
+17114:CCREAT
+Entity: 150
+A runtime error was detected at time 7.8213041 at the following block:
+
+ *    1 13$             CREATE,1,MinutesToBaseTime(0.0),Cliente:
+                            MinutesToBaseTime(EXPO(5)):
+                            NEXT(14$);
+
+Maximum of 150 entities exceeded.
+Possible causes:
+- A logic problem in your model is creating too many entities or not
+  disposing them. The run controller may be helpful in finding the problem.
+- You are in demo mode and have exceeded the entity limit. The commercial
+  version is required to run large models.
+- You have set an entity limit on the DISCRETE element that is too small.
+  Remove the limit or set it to a larger number.
+- You have exceeded the standard array s 
+pace for models. Use the Array Sizes
+  page in the Run/Setup dialog to increase the RSET space allocated and
+  recheck your model.
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+7.8213041 Hours>
+----------------------------------------------------------------------
+17114:CCREAT
+Entity: 149
+A runtime error was detected at time 7.8717735 at the following block:
+
+ *   39 230$            CREATE,1,MinutesToBaseTime(0.0),Cliente:
+                            MinutesToBaseTime(EXPO(7)):
+                            NEXT(231$);
+
+Maximum of 150 entities exceeded.
+Possible causes:
+- A logic problem in your model is creating too many entities or not
+  disposing them. The run controller may be helpful in finding the problem.
+- You are in demo mode and have exceeded the entity limit. The commercial
+  version is required to run large models.
+- You have set an entity limit on the DISCRETE element that is too small.
+  Remove the limit or set it to a larger number.
+- You have exceeded the standard array s 
+pace for models. Use the Array Sizes
+  page in the Run/Setup dialog to increase the RSET space allocated and
+  recheck your model.
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+7.8717735 Hours>
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 1 of 5
+
+Project: Unnamed Project                                             Run execution date :10/16/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/16/2020
+
+Replication ended at time      : 7.8717735 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Cliente.VATime                                  --         --         --         --          0
+Cliente.NVATime                                 --         --         --         --          0
+Cliente.WaitTime                                --         --         --         --          0
+Cliente.TranTime                                --         --         --         --          0
+Cliente.OtherTime                               --         --         --         --          0
+Cliente.TotalTime                               --         --         --         --          0
+Atendimento Doméstico.Queue.WaitingTime     1.4661     (Insuf)    .00000     2.9322          2    
+Taxi.Queue.WaitingTime                          --         --         --         --          0
+Estacionar.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000         20    
+Atendimento Empresarial.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000          1    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Cliente.WIP                                 72.149     (Insuf)    .00000     147.00     147.00    
+Junior.NumberBusy                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Junior.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Junior.Utilization                          1.0000     (Insuf)    .00000     1.0000     1.0000    
+LugarEstacionamento.NumberBusy              17.225     (Insuf)    .00000     20.000     20.000    
+LugarEstacionamento.NumberScheduled         20.000     (Insuf)    20.000     20.000     20.000    
+LugarEstacionamento.Utilization             .86129     (Insuf)    .00000     1.0000     1.0000    
+Senior.NumberBusy                           2.9622     (Insuf)    .00000     3.0000     3.0000    
+Senior.NumberScheduled                      3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Senior.Utilization                          .98741     (Insuf)    .00000     1.0000     1.0000    
+Atendimento Doméstico.Queue.NumberInQueue   36.245     (Insuf)    .00000     68.000     68.000    
+Taxi.Queue.NumberInQueue                    .62661     (Insuf)    .00000     1.0000     1.0000    
+Estacionar.Queue.NumberInQueue              24.945     (Insuf)    .00000     64.000     64.000    
+Atendimento Empresarial.Queue.NumberInQueu  8.1408     (Insuf)    .00000     13.000     13.000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Cliente.NumberIn                            147.00    
+Cliente.NumberOut                           .00000    
+Junior.NumberSeized                         2.0000    
+Junior.ScheduledUtilization                 1.0000    
+LugarEstacionamento.NumberSeized            20.000    
+LugarEstacionamento.ScheduledUtilization    .86129    
+Senior.NumberSeized                         3.0000    
+Senior.ScheduledUtilization                 .98741    
+System.NumberOut                            .00000    
+

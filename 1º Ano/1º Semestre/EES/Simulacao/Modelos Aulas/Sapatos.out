@@ -1,0 +1,1758 @@
+SIMAN Run Controller.
+
+0.0 Hours>SIMAN Run Controller.
+
+0.90953165 Hours>
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 1 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               3.0385     (Insuf)    1.7621     3.8395          3    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          3    
+Sapato.WaitTime                             7.3200     (Insuf)    4.0462     10.527          3    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          3    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          3    
+Sapato.TotalTime                            5.4136     (Insuf)    3.0407     7.5070          3    
+Etiquetagem.Queue.WaitingTime               .04000     (Insuf)    .00000     .20524         43    
+Filtragem.Queue.WaitingTime                 2.5238     (Insuf)    .00000     4.1912         44    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          4    
+Limpeza e Brilho.Queue.WaitingTime          2.6678     (Insuf)    .00000     5.5178          9    
+Juntar sapatos.Queue.WaitingTime            1.4406     (Insuf)    .00000     5.5999          8    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  45.156     (Insuf)    .00000     88.000     88.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .04080     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .04080     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .07795     (Insuf)    .00000     1.0000     1.0000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .07795     (Insuf)    .00000     1.0000     1.0000    
+OpS.NumberBusy                              .04433     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .04433     (Insuf)    .00000     1.0000     .00000    
+Operador 3.NumberBusy                       .97289     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .97289     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .44739     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .44739     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .21502     (Insuf)    .00000     2.0000     .00000    
+Filtragem.Queue.NumberInQueue               26.567     (Insuf)    .00000     51.000     49.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        14.024     (Insuf)    .00000     33.000     33.000    
+Juntar sapatos.Queue.NumberInQueue          1.4406     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             97.000    
+Sapato.NumberOut                            9.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            1.0000    
+OpB.ScheduledUtilization                    .04080    
+OpMb.NumberSeized                           2.0000    
+OpMb.ScheduledUtilization                   .07795    
+OpS.NumberSeized                            1.0000    
+OpS.ScheduledUtilization                    .04433    
+Operador 3.NumberSeized                     9.0000    
+Operador 3.ScheduledUtilization             .97289    
+Operador 2.NumberSeized                     43.000    
+Operador 2.ScheduledUtilization             .44739    
+Operador 1.NumberSeized                     44.000    
+Operador 1.ScheduledUtilization             1.0000    
+System.NumberOut                            3.0000    
+
+Beginning replication 2 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 2 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               2.3662     (Insuf)    1.7405     2.9920          2    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          2    
+Sapato.WaitTime                             4.3658     (Insuf)    1.2085     7.5230          2    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          2    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          2    
+Sapato.TotalTime                            3.5667     (Insuf)    1.6625     5.4709          2    
+Etiquetagem.Queue.WaitingTime               .11130     (Insuf)    .00000     .39300         63    
+Filtragem.Queue.WaitingTime                 1.9918     (Insuf)    .00000     3.2683         64    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          2    
+Limpeza e Brilho.Queue.WaitingTime          2.5071     (Insuf)    .00000     5.1191          8    
+Juntar sapatos.Queue.WaitingTime            .85273     (Insuf)    .00000     2.8898          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  51.953     (Insuf)    .00000     94.000     94.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .03831     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .03831     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .04588     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .04588     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberBusy                              .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .00000     (Insuf)    .00000     .00000     .00000    
+Operador 3.NumberBusy                       .95818     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .95818     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .70053     (Insuf)    .00000     1.0000     .00000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .70053     (Insuf)    .00000     1.0000     .00000    
+Operador 1.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .87648     (Insuf)    .00000     6.0000     .00000    
+Filtragem.Queue.NumberInQueue               23.924     (Insuf)    .00000     39.000     34.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        23.022     (Insuf)    .00000     55.000     55.000    
+Juntar sapatos.Queue.NumberInQueue          1.2191     (Insuf)    .00000     3.0000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             100.00    
+Sapato.NumberOut                            6.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            1.0000    
+OpB.ScheduledUtilization                    .03831    
+OpMb.NumberSeized                           1.0000    
+OpMb.ScheduledUtilization                   .04588    
+OpS.NumberSeized                            .00000    
+OpS.ScheduledUtilization                    .00000    
+Operador 3.NumberSeized                     8.0000    
+Operador 3.ScheduledUtilization             .95818    
+Operador 2.NumberSeized                     63.000    
+Operador 2.ScheduledUtilization             .70053    
+Operador 1.NumberSeized                     64.000    
+Operador 1.ScheduledUtilization             1.0000    
+System.NumberOut                            2.0000    
+
+Beginning replication 3 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 3 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               2.7411     (Insuf)    2.4364     2.9040          3    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          3    
+Sapato.WaitTime                             7.8518     (Insuf)    4.2899     11.144          3    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          3    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          3    
+Sapato.TotalTime                            5.4843     (Insuf)    3.7891     7.1819          3    
+Etiquetagem.Queue.WaitingTime               .05264     (Insuf)    .00000     .26196         57    
+Filtragem.Queue.WaitingTime                 1.6792     (Insuf)    .00000     3.8354         61    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          3    
+Limpeza e Brilho.Queue.WaitingTime          3.2171     (Insuf)    .00000     6.3019          8    
+Juntar sapatos.Queue.WaitingTime            .51541     (Insuf)    .00000     1.1540          6    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  51.171     (Insuf)    .00000     99.000     99.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .11794     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .11794     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .00000     (Insuf)    .00000     .00000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberBusy                              .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .00000     (Insuf)    .00000     .00000     .00000    
+Operador 3.NumberBusy                       .98880     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .98880     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .56758     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .56758     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       .99199     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .99199     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .38316     (Insuf)    .00000     4.0000     3.0000    
+Filtragem.Queue.NumberInQueue               21.521     (Insuf)    .00000     48.000     44.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        25.159     (Insuf)    .00000     48.000     48.000    
+Juntar sapatos.Queue.NumberInQueue          1.2058     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             108.00    
+Sapato.NumberOut                            9.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            3.0000    
+OpB.ScheduledUtilization                    .11794    
+OpMb.NumberSeized                           .00000    
+OpMb.ScheduledUtilization                   .00000    
+OpS.NumberSeized                            .00000    
+OpS.ScheduledUtilization                    .00000    
+Operador 3.NumberSeized                     8.0000    
+Operador 3.ScheduledUtilization             .98880    
+Operador 2.NumberSeized                     57.000    
+Operador 2.ScheduledUtilization             .56758    
+Operador 1.NumberSeized                     61.000    
+Operador 1.ScheduledUtilization             .99199    
+System.NumberOut                            3.0000    
+
+Beginning replication 4 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 4 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               2.7434     (Insuf)    2.1706     3.3097          3    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          3    
+Sapato.WaitTime                             5.8814     (Insuf)    2.4475     8.2037          3    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          3    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          3    
+Sapato.TotalTime                            4.5341     (Insuf)    3.0962     5.7781          3    
+Etiquetagem.Queue.WaitingTime               .01890     (Insuf)    .00000     .17397         44    
+Filtragem.Queue.WaitingTime                 2.0384     (Insuf)    .00000     3.4463         45    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          3    
+Limpeza e Brilho.Queue.WaitingTime          2.5920     (Insuf)    .00000     5.6982          8    
+Juntar sapatos.Queue.WaitingTime            .60670     (Insuf)    .00000     2.0203          6    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  40.222     (Insuf)    .00000     83.000     83.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .07405     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .07405     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .03560     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .03560     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberBusy                              .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .00000     (Insuf)    .00000     .00000     .00000    
+Operador 3.NumberBusy                       .89594     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .89594     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .43838     (Insuf)    .00000     1.0000     .00000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .43838     (Insuf)    .00000     1.0000     .00000    
+Operador 1.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .10397     (Insuf)    .00000     2.0000     .00000    
+Filtragem.Queue.NumberInQueue               21.518     (Insuf)    .00000     44.000     44.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        15.450     (Insuf)    .00000     36.000     36.000    
+Juntar sapatos.Queue.NumberInQueue          .48545     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             92.000    
+Sapato.NumberOut                            9.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            2.0000    
+OpB.ScheduledUtilization                    .07405    
+OpMb.NumberSeized                           1.0000    
+OpMb.ScheduledUtilization                   .03560    
+OpS.NumberSeized                            .00000    
+OpS.ScheduledUtilization                    .00000    
+Operador 3.NumberSeized                     8.0000    
+Operador 3.ScheduledUtilization             .89594    
+Operador 2.NumberSeized                     44.000    
+Operador 2.ScheduledUtilization             .43838    
+Operador 1.NumberSeized                     45.000    
+Operador 1.ScheduledUtilization             1.0000    
+System.NumberOut                            3.0000    
+
+Beginning replication 5 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 5 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               3.3992     (Insuf)    2.9608     3.8375          2    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          2    
+Sapato.WaitTime                             6.6156     (Insuf)    5.1785     8.0527          2    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          2    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          2    
+Sapato.TotalTime                            5.2947     (Insuf)    4.3487     6.2407          2    
+Etiquetagem.Queue.WaitingTime               .09061     (Insuf)    .00000     .33487         73    
+Filtragem.Queue.WaitingTime                 .86980     (Insuf)    .00000     1.9679         75    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          2    
+Limpeza e Brilho.Queue.WaitingTime          3.1151     (Insuf)    .00000     6.6990          7    
+Juntar sapatos.Queue.WaitingTime            1.4974     (Insuf)    .00000     3.2585          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  50.006     (Insuf)    .00000     96.000     96.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .03915     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .03915     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .00000     (Insuf)    .00000     .00000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberBusy                              .04037     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .04037     (Insuf)    .00000     1.0000     .00000    
+Operador 3.NumberBusy                       .95377     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .95377     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .75008     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .75008     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .84231     (Insuf)    .00000     4.0000     1.0000    
+Filtragem.Queue.NumberInQueue               11.603     (Insuf)    .00000     25.000     25.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        33.395     (Insuf)    .00000     65.000     65.000    
+Juntar sapatos.Queue.NumberInQueue          1.2230     (Insuf)    .00000     3.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             102.00    
+Sapato.NumberOut                            6.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            1.0000    
+OpB.ScheduledUtilization                    .03915    
+OpMb.NumberSeized                           .00000    
+OpMb.ScheduledUtilization                   .00000    
+OpS.NumberSeized                            1.0000    
+OpS.ScheduledUtilization                    .04037    
+Operador 3.NumberSeized                     7.0000    
+Operador 3.ScheduledUtilization             .95377    
+Operador 2.NumberSeized                     73.000    
+Operador 2.ScheduledUtilization             .75008    
+Operador 1.NumberSeized                     75.000    
+Operador 1.ScheduledUtilization             1.0000    
+System.NumberOut                            2.0000    
+
+Beginning replication 6 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 6 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               3.3257     (Insuf)    3.2546     3.3968          2    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          2    
+Sapato.WaitTime                             8.3866     (Insuf)    6.1018     10.671          2    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          2    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          2    
+Sapato.TotalTime                            6.0753     (Insuf)    4.9382     7.2124          2    
+Etiquetagem.Queue.WaitingTime               .10208     (Insuf)    .00000     .36892         67    
+Filtragem.Queue.WaitingTime                 1.3903     (Insuf)    .00000     2.4035         69    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          2    
+Limpeza e Brilho.Queue.WaitingTime          2.8694     (Insuf)    .00000     6.0035          7    
+Juntar sapatos.Queue.WaitingTime            1.6792     (Insuf)    .00000     3.6408          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  49.850     (Insuf)    .00000     99.000     99.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .03474     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .03474     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .00000     (Insuf)    .00000     .00000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberBusy                              .03291     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .03291     (Insuf)    .00000     1.0000     .00000    
+Operador 3.NumberBusy                       .95367     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .95367     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .79594     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .79594     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .85998     (Insuf)    .00000     4.0000     1.0000    
+Filtragem.Queue.NumberInQueue               16.798     (Insuf)    .00000     35.000     34.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        27.395     (Insuf)    .00000     59.000     59.000    
+Juntar sapatos.Queue.NumberInQueue          1.8441     (Insuf)    .00000     4.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             105.00    
+Sapato.NumberOut                            6.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            1.0000    
+OpB.ScheduledUtilization                    .03474    
+OpMb.NumberSeized                           .00000    
+OpMb.ScheduledUtilization                   .00000    
+OpS.NumberSeized                            1.0000    
+OpS.ScheduledUtilization                    .03291    
+Operador 3.NumberSeized                     7.0000    
+Operador 3.ScheduledUtilization             .95367    
+Operador 2.NumberSeized                     67.000    
+Operador 2.ScheduledUtilization             .79594    
+Operador 1.NumberSeized                     69.000    
+Operador 1.ScheduledUtilization             1.0000    
+System.NumberOut                            2.0000    
+
+Beginning replication 7 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 7 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               2.8174     (Insuf)    1.8226     3.8126          3    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          3    
+Sapato.WaitTime                             7.6524     (Insuf)    4.4111     9.5631          3    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          3    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          3    
+Sapato.TotalTime                            5.5499     (Insuf)    4.3714     6.4955          3    
+Etiquetagem.Queue.WaitingTime               .06345     (Insuf)    .00000     .39215         56    
+Filtragem.Queue.WaitingTime                 1.3130     (Insuf)    .00000     2.9235         57    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          4    
+Limpeza e Brilho.Queue.WaitingTime          3.4412     (Insuf)    .00000     6.1946          9    
+Juntar sapatos.Queue.WaitingTime            1.0425     (Insuf)    .00000     4.5883          8    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  43.744     (Insuf)    .00000     85.000     85.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .06001     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .06001     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .08832     (Insuf)    .00000     1.0000     1.0000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .08832     (Insuf)    .00000     1.0000     1.0000    
+OpS.NumberBusy                              .04641     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .04641     (Insuf)    .00000     1.0000     .00000    
+Operador 3.NumberBusy                       .94420     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .94420     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .64028     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .64028     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .44418     (Insuf)    .00000     4.0000     .00000    
+Filtragem.Queue.NumberInQueue               16.416     (Insuf)    .00000     35.000     33.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        22.673     (Insuf)    .00000     46.000     46.000    
+Juntar sapatos.Queue.NumberInQueue          1.0425     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             94.000    
+Sapato.NumberOut                            9.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            1.0000    
+OpB.ScheduledUtilization                    .06001    
+OpMb.NumberSeized                           2.0000    
+OpMb.ScheduledUtilization                   .08832    
+OpS.NumberSeized                            1.0000    
+OpS.ScheduledUtilization                    .04641    
+Operador 3.NumberSeized                     9.0000    
+Operador 3.ScheduledUtilization             .94420    
+Operador 2.NumberSeized                     56.000    
+Operador 2.ScheduledUtilization             .64028    
+Operador 1.NumberSeized                     57.000    
+Operador 1.ScheduledUtilization             1.0000    
+System.NumberOut                            3.0000    
+
+Beginning replication 8 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 8 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               3.6883     (Insuf)    3.1754     4.2011          2    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          2    
+Sapato.WaitTime                             5.7079     (Insuf)    5.3610     6.0547          2    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          2    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          2    
+Sapato.TotalTime                            5.0532     (Insuf)    4.5456     5.5608          2    
+Etiquetagem.Queue.WaitingTime               .07834     (Insuf)    .00000     .29130         58    
+Filtragem.Queue.WaitingTime                 1.0588     (Insuf)    .00000     1.6360         64    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          2    
+Limpeza e Brilho.Queue.WaitingTime          2.5138     (Insuf)    .00000     5.5563          6    
+Juntar sapatos.Queue.WaitingTime            1.3948     (Insuf)    .00000     2.9344          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  33.233     (Insuf)    .00000     70.000     70.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .05284     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .05284     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .00000     (Insuf)    .00000     .00000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberBusy                              .01850     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .01850     (Insuf)    .00000     1.0000     .00000    
+Operador 3.NumberBusy                       .99319     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .99319     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .61130     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .61130     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       .96052     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .96052     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .69247     (Insuf)    .00000     5.0000     5.0000    
+Filtragem.Queue.NumberInQueue               9.4152     (Insuf)    .00000     22.000     10.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        19.567     (Insuf)    .00000     51.000     51.000    
+Juntar sapatos.Queue.NumberInQueue          .77907     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             76.000    
+Sapato.NumberOut                            6.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            1.0000    
+OpB.ScheduledUtilization                    .05284    
+OpMb.NumberSeized                           .00000    
+OpMb.ScheduledUtilization                   .00000    
+OpS.NumberSeized                            1.0000    
+OpS.ScheduledUtilization                    .01850    
+Operador 3.NumberSeized                     6.0000    
+Operador 3.ScheduledUtilization             .99319    
+Operador 2.NumberSeized                     58.000    
+Operador 2.ScheduledUtilization             .61130    
+Operador 1.NumberSeized                     64.000    
+Operador 1.ScheduledUtilization             .96052    
+System.NumberOut                            2.0000    
+
+Beginning replication 9 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 9 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               4.3516     (Insuf)    4.3516     4.3516          1    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Sapato.WaitTime                             6.1660     (Insuf)    6.1660     6.1660          1    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Sapato.TotalTime                            5.5063     (Insuf)    5.5063     5.5063          1    
+Etiquetagem.Queue.WaitingTime               .14117     (Insuf)    .00000     .44669         58    
+Filtragem.Queue.WaitingTime                 2.5184     (Insuf)    .00000     4.1471         61    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          1    
+Limpeza e Brilho.Queue.WaitingTime          2.6170     (Insuf)    .00000     5.5850          5    
+Juntar sapatos.Queue.WaitingTime            1.4804     (Insuf)    .00000     2.9608          2    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  55.813     (Insuf)    .00000     98.000     98.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .00000     (Insuf)    .00000     .00000     .00000    
+OpMb.NumberBusy                             .00000     (Insuf)    .00000     .00000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberBusy                              .03703     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .03703     (Insuf)    .00000     1.0000     .00000    
+Operador 3.NumberBusy                       .93065     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .93065     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .70480     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .70480     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             1.0589     (Insuf)    .00000     4.0000     2.0000    
+Filtragem.Queue.NumberInQueue               28.115     (Insuf)    .00000     40.000     39.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        22.837     (Insuf)    .00000     52.000     52.000    
+Juntar sapatos.Queue.NumberInQueue          1.0548     (Insuf)    .00000     3.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             101.00    
+Sapato.NumberOut                            3.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            .00000    
+OpB.ScheduledUtilization                    .00000    
+OpMb.NumberSeized                           .00000    
+OpMb.ScheduledUtilization                   .00000    
+OpS.NumberSeized                            1.0000    
+OpS.ScheduledUtilization                    .03703    
+Operador 3.NumberSeized                     5.0000    
+Operador 3.ScheduledUtilization             .93065    
+Operador 2.NumberSeized                     58.000    
+Operador 2.ScheduledUtilization             .70480    
+Operador 1.NumberSeized                     61.000    
+Operador 1.ScheduledUtilization             1.0000    
+System.NumberOut                            1.0000    
+
+Beginning replication 10 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 10 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               2.8901     (Insuf)    1.6801     3.9897          3    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          3    
+Sapato.WaitTime                             6.0608     (Insuf)    3.3507     10.573          3    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          3    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          3    
+Sapato.TotalTime                            4.7004     (Insuf)    2.6971     7.5538          3    
+Etiquetagem.Queue.WaitingTime               .12610     (Insuf)    .00000     .57689         70    
+Filtragem.Queue.WaitingTime                 1.1326     (Insuf)    .00000     1.9791         72    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          3    
+Limpeza e Brilho.Queue.WaitingTime          2.9570     (Insuf)    .00000     6.5482          8    
+Juntar sapatos.Queue.WaitingTime            .79544     (Insuf)    .00000     2.2433          6    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  44.074     (Insuf)    .00000     80.000     80.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .04137     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .04137     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .03863     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .03863     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberBusy                              .03240     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .03240     (Insuf)    .00000     1.0000     .00000    
+Operador 3.NumberBusy                       .98303     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .98303     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .74201     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .74201     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       .95981     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .95981     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             1.1390     (Insuf)    .00000     6.0000     1.0000    
+Filtragem.Queue.NumberInQueue               11.493     (Insuf)    .00000     23.000     14.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        27.555     (Insuf)    .00000     61.000     61.000    
+Juntar sapatos.Queue.NumberInQueue          .86440     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             89.000    
+Sapato.NumberOut                            9.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            1.0000    
+OpB.ScheduledUtilization                    .04137    
+OpMb.NumberSeized                           1.0000    
+OpMb.ScheduledUtilization                   .03863    
+OpS.NumberSeized                            1.0000    
+OpS.ScheduledUtilization                    .03240    
+Operador 3.NumberSeized                     8.0000    
+Operador 3.ScheduledUtilization             .98303    
+Operador 2.NumberSeized                     70.000    
+Operador 2.ScheduledUtilization             .74201    
+Operador 1.NumberSeized                     72.000    
+Operador 1.ScheduledUtilization             .95981    
+System.NumberOut                            3.0000    
+
+Beginning replication 11 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 11 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               2.8941     (Insuf)    2.7769     3.0112          2    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          2    
+Sapato.WaitTime                             9.4447     (Insuf)    6.9077     11.981          2    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          2    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          2    
+Sapato.TotalTime                            6.3192     (Insuf)    5.1095     7.5290          2    
+Etiquetagem.Queue.WaitingTime               .07662     (Insuf)    .00000     .38743         59    
+Filtragem.Queue.WaitingTime                 2.2618     (Insuf)    .00000     3.8818         60    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          2    
+Limpeza e Brilho.Queue.WaitingTime          3.8022     (Insuf)    .00000     6.5987          7    
+Juntar sapatos.Queue.WaitingTime            .72160     (Insuf)    .00000     1.5811          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  60.668     (Insuf)    .00000     110.00     109.00    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .06515     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .06515     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .00000     (Insuf)    .00000     .00000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberBusy                              .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .00000     (Insuf)    .00000     .00000     .00000    
+Operador 3.NumberBusy                       .94970     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .94970     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .63206     (Insuf)    .00000     1.0000     .00000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .63206     (Insuf)    .00000     1.0000     .00000    
+Operador 1.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .56508     (Insuf)    .00000     4.0000     .00000    
+Filtragem.Queue.NumberInQueue               31.713     (Insuf)    .00000     53.000     53.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        24.338     (Insuf)    .00000     52.000     52.000    
+Juntar sapatos.Queue.NumberInQueue          1.2736     (Insuf)    .00000     4.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             115.00    
+Sapato.NumberOut                            6.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            2.0000    
+OpB.ScheduledUtilization                    .06515    
+OpMb.NumberSeized                           .00000    
+OpMb.ScheduledUtilization                   .00000    
+OpS.NumberSeized                            .00000    
+OpS.ScheduledUtilization                    .00000    
+Operador 3.NumberSeized                     7.0000    
+Operador 3.ScheduledUtilization             .94970    
+Operador 2.NumberSeized                     59.000    
+Operador 2.ScheduledUtilization             .63206    
+Operador 1.NumberSeized                     60.000    
+Operador 1.ScheduledUtilization             1.0000    
+System.NumberOut                            2.0000    
+
+Beginning replication 12 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 12 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               2.8791     (Insuf)    1.8204     3.9378          2    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          2    
+Sapato.WaitTime                             5.1583     (Insuf)    4.9902     5.3263          2    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          2    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          2    
+Sapato.TotalTime                            4.2857     (Insuf)    3.7131     4.8584          2    
+Etiquetagem.Queue.WaitingTime               .04858     (Insuf)    .00000     .23692         57    
+Filtragem.Queue.WaitingTime                 1.3353     (Insuf)    .00000     2.4741         58    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          2    
+Limpeza e Brilho.Queue.WaitingTime          3.4589     (Insuf)    .00000     6.6647          8    
+Juntar sapatos.Queue.WaitingTime            1.0983     (Insuf)    .00000     2.4743          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  39.504     (Insuf)    .00000     83.000     83.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .00000     (Insuf)    .00000     .00000     .00000    
+OpMb.NumberBusy                             .05631     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .05631     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberBusy                              .03233     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .03233     (Insuf)    .00000     1.0000     .00000    
+Operador 3.NumberBusy                       .97269     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .97269     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .58626     (Insuf)    .00000     1.0000     .00000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .58626     (Insuf)    .00000     1.0000     .00000    
+Operador 1.NumberBusy                       .99500     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .99500     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .34616     (Insuf)    .00000     3.0000     .00000    
+Filtragem.Queue.NumberInQueue               13.667     (Insuf)    .00000     30.000     29.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        21.851     (Insuf)    .00000     49.000     49.000    
+Juntar sapatos.Queue.NumberInQueue          .81909     (Insuf)    .00000     3.0000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             89.000    
+Sapato.NumberOut                            6.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            .00000    
+OpB.ScheduledUtilization                    .00000    
+OpMb.NumberSeized                           1.0000    
+OpMb.ScheduledUtilization                   .05631    
+OpS.NumberSeized                            1.0000    
+OpS.ScheduledUtilization                    .03233    
+Operador 3.NumberSeized                     8.0000    
+Operador 3.ScheduledUtilization             .97269    
+Operador 2.NumberSeized                     57.000    
+Operador 2.ScheduledUtilization             .58626    
+Operador 1.NumberSeized                     58.000    
+Operador 1.ScheduledUtilization             .99500    
+System.NumberOut                            2.0000    
+
+Beginning replication 13 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 13 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               3.9198     (Insuf)    3.2452     4.5944          2    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          2    
+Sapato.WaitTime                             6.3472     (Insuf)    3.3188     9.3757          2    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          2    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          2    
+Sapato.TotalTime                            5.3419     (Insuf)    4.2078     6.4761          2    
+Etiquetagem.Queue.WaitingTime               .04561     (Insuf)    .00000     .22245         63    
+Filtragem.Queue.WaitingTime                 1.4457     (Insuf)    .00000     2.4918         64    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          2    
+Limpeza e Brilho.Queue.WaitingTime          3.8681     (Insuf)    .00000     6.6598          7    
+Juntar sapatos.Queue.WaitingTime            .73218     (Insuf)    .00000     1.6151          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  43.866     (Insuf)    .00000     89.000     89.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .04097     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .04097     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .00000     (Insuf)    .00000     .00000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberBusy                              .05546     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .05546     (Insuf)    .00000     1.0000     .00000    
+Operador 3.NumberBusy                       .97119     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .97119     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .59946     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .59946     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .35917     (Insuf)    .00000     4.0000     .00000    
+Filtragem.Queue.NumberInQueue               15.410     (Insuf)    .00000     29.000     29.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        24.722     (Insuf)    .00000     55.000     55.000    
+Juntar sapatos.Queue.NumberInQueue          .51454     (Insuf)    .00000     2.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             95.000    
+Sapato.NumberOut                            6.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            1.0000    
+OpB.ScheduledUtilization                    .04097    
+OpMb.NumberSeized                           .00000    
+OpMb.ScheduledUtilization                   .00000    
+OpS.NumberSeized                            1.0000    
+OpS.ScheduledUtilization                    .05546    
+Operador 3.NumberSeized                     7.0000    
+Operador 3.ScheduledUtilization             .97119    
+Operador 2.NumberSeized                     63.000    
+Operador 2.ScheduledUtilization             .59946    
+Operador 1.NumberSeized                     64.000    
+Operador 1.ScheduledUtilization             1.0000    
+System.NumberOut                            2.0000    
+
+Beginning replication 14 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 14 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               2.8465     (Insuf)    1.8384     4.0411          3    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          3    
+Sapato.WaitTime                             7.1564     (Insuf)    5.4827     8.8301          3    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          3    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          3    
+Sapato.TotalTime                            5.2513     (Insuf)    4.3445     6.7034          3    
+Etiquetagem.Queue.WaitingTime               .05104     (Insuf)    .00000     .21121         57    
+Filtragem.Queue.WaitingTime                 1.5687     (Insuf)    .00000     3.5376         58    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          3    
+Limpeza e Brilho.Queue.WaitingTime          2.4800     (Insuf)    .00000     5.2673          7    
+Juntar sapatos.Queue.WaitingTime            1.2999     (Insuf)    .00000     4.7872          6    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  50.626     (Insuf)    .00000     102.00     102.00    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .04513     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .04513     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .04161     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .04161     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberBusy                              .03769     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .03769     (Insuf)    .00000     1.0000     .00000    
+Operador 3.NumberBusy                       .97680     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .97680     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .57371     (Insuf)    .00000     1.0000     .00000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .57371     (Insuf)    .00000     1.0000     .00000    
+Operador 1.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .36366     (Insuf)    .00000     3.0000     .00000    
+Filtragem.Queue.NumberInQueue               20.741     (Insuf)    .00000     50.000     50.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        25.623     (Insuf)    .00000     50.000     50.000    
+Juntar sapatos.Queue.NumberInQueue          .97495     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             111.00    
+Sapato.NumberOut                            9.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            1.0000    
+OpB.ScheduledUtilization                    .04513    
+OpMb.NumberSeized                           1.0000    
+OpMb.ScheduledUtilization                   .04161    
+OpS.NumberSeized                            1.0000    
+OpS.ScheduledUtilization                    .03769    
+Operador 3.NumberSeized                     7.0000    
+Operador 3.ScheduledUtilization             .97680    
+Operador 2.NumberSeized                     57.000    
+Operador 2.ScheduledUtilization             .57371    
+Operador 1.NumberSeized                     58.000    
+Operador 1.ScheduledUtilization             1.0000    
+System.NumberOut                            3.0000    
+
+Beginning replication 15 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 15 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               3.4087     (Insuf)    2.8689     3.9484          2    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          2    
+Sapato.WaitTime                             6.9895     (Insuf)    5.8273     8.1516          2    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          2    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          2    
+Sapato.TotalTime                            5.4493     (Insuf)    4.6453     6.2533          2    
+Etiquetagem.Queue.WaitingTime               .04929     (Insuf)    .00000     .24614         55    
+Filtragem.Queue.WaitingTime                 2.2796     (Insuf)    .00000     4.0038         57    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          2    
+Limpeza e Brilho.Queue.WaitingTime          2.9250     (Insuf)    .00000     6.6551          7    
+Juntar sapatos.Queue.WaitingTime            1.3983     (Insuf)    .00000     2.8805          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  55.139     (Insuf)    .00000     100.00     100.00    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .05193     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .05193     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .00000     (Insuf)    .00000     .00000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberBusy                              .03863     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .03863     (Insuf)    .00000     1.0000     .00000    
+Operador 3.NumberBusy                       .99500     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .99500     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .62481     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .62481     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       .98428     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .98428     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .36843     (Insuf)    .00000     3.0000     1.0000    
+Filtragem.Queue.NumberInQueue               29.213     (Insuf)    .00000     51.000     47.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        21.170     (Insuf)    .00000     47.000     47.000    
+Juntar sapatos.Queue.NumberInQueue          1.5113     (Insuf)    .00000     4.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             106.00    
+Sapato.NumberOut                            6.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            1.0000    
+OpB.ScheduledUtilization                    .05193    
+OpMb.NumberSeized                           .00000    
+OpMb.ScheduledUtilization                   .00000    
+OpS.NumberSeized                            1.0000    
+OpS.ScheduledUtilization                    .03863    
+Operador 3.NumberSeized                     7.0000    
+Operador 3.ScheduledUtilization             .99500    
+Operador 2.NumberSeized                     55.000    
+Operador 2.ScheduledUtilization             .62481    
+Operador 1.NumberSeized                     57.000    
+Operador 1.ScheduledUtilization             .98428    
+System.NumberOut                            2.0000    
+
+Beginning replication 16 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 16 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               3.2682     (Insuf)    3.0672     3.4691          2    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          2    
+Sapato.WaitTime                             6.4809     (Insuf)    2.1178     10.844          2    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          2    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          2    
+Sapato.TotalTime                            5.0672     (Insuf)    2.9968     7.1376          2    
+Etiquetagem.Queue.WaitingTime               .19080     (Insuf)    .00000     .65254         61    
+Filtragem.Queue.WaitingTime                 1.6869     (Insuf)    .00000     2.1554         64    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          2    
+Limpeza e Brilho.Queue.WaitingTime          3.3971     (Insuf)    .00000     6.5523          7    
+Juntar sapatos.Queue.WaitingTime            .60566     (Insuf)    .00000     1.2965          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  45.690     (Insuf)    .00000     91.000     91.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .08704     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .08704     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .00000     (Insuf)    .00000     .00000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberBusy                              .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .00000     (Insuf)    .00000     .00000     .00000    
+Operador 3.NumberBusy                       .97900     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .97900     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .70814     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .70814     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             1.5238     (Insuf)    .00000     7.0000     2.0000    
+Filtragem.Queue.NumberInQueue               18.351     (Insuf)    .00000     31.000     31.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        22.049     (Insuf)    .00000     53.000     53.000    
+Juntar sapatos.Queue.NumberInQueue          .81648     (Insuf)    .00000     3.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             97.000    
+Sapato.NumberOut                            6.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            2.0000    
+OpB.ScheduledUtilization                    .08704    
+OpMb.NumberSeized                           .00000    
+OpMb.ScheduledUtilization                   .00000    
+OpS.NumberSeized                            .00000    
+OpS.ScheduledUtilization                    .00000    
+Operador 3.NumberSeized                     7.0000    
+Operador 3.ScheduledUtilization             .97900    
+Operador 2.NumberSeized                     61.000    
+Operador 2.ScheduledUtilization             .70814    
+Operador 1.NumberSeized                     64.000    
+Operador 1.ScheduledUtilization             1.0000    
+System.NumberOut                            2.0000    
+
+Beginning replication 17 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 17 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               2.8132     (Insuf)    1.8543     4.2450          3    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          3    
+Sapato.WaitTime                             7.1350     (Insuf)    6.0339     7.9928          3    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          3    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          3    
+Sapato.TotalTime                            5.2803     (Insuf)    4.1809     6.3788          3    
+Etiquetagem.Queue.WaitingTime               .02960     (Insuf)    .00000     .20192         60    
+Filtragem.Queue.WaitingTime                 .29118     (Insuf)    .00000     .81427         61    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          3    
+Limpeza e Brilho.Queue.WaitingTime          2.8408     (Insuf)    .00000     6.2631          8    
+Juntar sapatos.Queue.WaitingTime            1.5516     (Insuf)    .00000     3.8438          6    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  31.309     (Insuf)    .00000     69.000     69.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .04338     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .04338     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .02779     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .02779     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberBusy                              .03613     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .03613     (Insuf)    .00000     1.0000     .00000    
+Operador 3.NumberBusy                       .97771     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .97771     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .64209     (Insuf)    .00000     1.0000     .00000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .64209     (Insuf)    .00000     1.0000     .00000    
+Operador 1.NumberBusy                       .91792     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .91792     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .22201     (Insuf)    .00000     3.0000     .00000    
+Filtragem.Queue.NumberInQueue               2.9898     (Insuf)    .00000     14.000     14.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        24.016     (Insuf)    .00000     52.000     52.000    
+Juntar sapatos.Queue.NumberInQueue          1.2216     (Insuf)    .00000     4.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             78.000    
+Sapato.NumberOut                            9.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            1.0000    
+OpB.ScheduledUtilization                    .04338    
+OpMb.NumberSeized                           1.0000    
+OpMb.ScheduledUtilization                   .02779    
+OpS.NumberSeized                            1.0000    
+OpS.ScheduledUtilization                    .03613    
+Operador 3.NumberSeized                     8.0000    
+Operador 3.ScheduledUtilization             .97771    
+Operador 2.NumberSeized                     60.000    
+Operador 2.ScheduledUtilization             .64209    
+Operador 1.NumberSeized                     61.000    
+Operador 1.ScheduledUtilization             .91792    
+System.NumberOut                            3.0000    
+
+Beginning replication 18 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 18 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               2.6434     (Insuf)    1.9429     3.0083          3    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          3    
+Sapato.WaitTime                             7.8535     (Insuf)    3.4646     11.267          3    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          3    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          3    
+Sapato.TotalTime                            5.5209     (Insuf)    3.4021     7.3960          3    
+Etiquetagem.Queue.WaitingTime               .07787     (Insuf)    .00000     .43252         56    
+Filtragem.Queue.WaitingTime                 .83055     (Insuf)    .00000     2.0227         59    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          3    
+Limpeza e Brilho.Queue.WaitingTime          3.1585     (Insuf)    .00000     6.2644          8    
+Juntar sapatos.Queue.WaitingTime            1.1622     (Insuf)    .00000     4.6457          6    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  35.453     (Insuf)    .00000     73.000     73.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .03664     (Insuf)    .00000     1.0000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .03664     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberBusy                             .05572     (Insuf)    .00000     1.0000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .05572     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberBusy                              .03508     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .03508     (Insuf)    .00000     1.0000     .00000    
+Operador 3.NumberBusy                       .97788     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .97788     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .57920     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .57920     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       .97221     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .97221     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .55721     (Insuf)    .00000     4.0000     2.0000    
+Filtragem.Queue.NumberInQueue               8.2042     (Insuf)    .00000     22.000     20.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        22.513     (Insuf)    .00000     47.000     47.000    
+Juntar sapatos.Queue.NumberInQueue          1.2670     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             82.000    
+Sapato.NumberOut                            9.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            1.0000    
+OpB.ScheduledUtilization                    .03664    
+OpMb.NumberSeized                           1.0000    
+OpMb.ScheduledUtilization                   .05572    
+OpS.NumberSeized                            1.0000    
+OpS.ScheduledUtilization                    .03508    
+Operador 3.NumberSeized                     8.0000    
+Operador 3.ScheduledUtilization             .97788    
+Operador 2.NumberSeized                     56.000    
+Operador 2.ScheduledUtilization             .57920    
+Operador 1.NumberSeized                     59.000    
+Operador 1.ScheduledUtilization             .97221    
+System.NumberOut                            3.0000    
+
+Beginning replication 19 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 19 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               4.3327     (Insuf)    4.3327     4.3327          1    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Sapato.WaitTime                             6.6274     (Insuf)    6.6274     6.6274          1    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Sapato.TotalTime                            5.6527     (Insuf)    5.6527     5.6527          1    
+Etiquetagem.Queue.WaitingTime               .13424     (Insuf)    .00000     .46727         65    
+Filtragem.Queue.WaitingTime                 1.4601     (Insuf)    .00000     3.0430         66    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          1    
+Limpeza e Brilho.Queue.WaitingTime          2.9208     (Insuf)    .00000     5.7784          6    
+Juntar sapatos.Queue.WaitingTime            1.0604     (Insuf)    .00000     2.1208          2    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  50.842     (Insuf)    .00000     89.000     89.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .00000     (Insuf)    .00000     .00000     .00000    
+OpMb.NumberBusy                             .00000     (Insuf)    .00000     .00000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberBusy                              .03417     (Insuf)    .00000     1.0000     .00000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .03417     (Insuf)    .00000     1.0000     .00000    
+Operador 3.NumberBusy                       .97659     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .97659     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .80787     (Insuf)    .00000     1.0000     .00000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .80787     (Insuf)    .00000     1.0000     .00000    
+Operador 1.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             1.0907     (Insuf)    .00000     5.0000     .00000    
+Filtragem.Queue.NumberInQueue               17.768     (Insuf)    .00000     31.000     25.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        27.336     (Insuf)    .00000     59.000     59.000    
+Juntar sapatos.Queue.NumberInQueue          1.7599     (Insuf)    .00000     4.0000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             92.000    
+Sapato.NumberOut                            3.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            .00000    
+OpB.ScheduledUtilization                    .00000    
+OpMb.NumberSeized                           .00000    
+OpMb.ScheduledUtilization                   .00000    
+OpS.NumberSeized                            1.0000    
+OpS.ScheduledUtilization                    .03417    
+Operador 3.NumberSeized                     6.0000    
+Operador 3.ScheduledUtilization             .97659    
+Operador 2.NumberSeized                     65.000    
+Operador 2.ScheduledUtilization             .80787    
+Operador 1.NumberSeized                     66.000    
+Operador 1.ScheduledUtilization             1.0000    
+System.NumberOut                            1.0000    
+
+Beginning replication 20 of 20
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 20 of 20
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sapato.VATime                               4.1420     (Insuf)    4.1420     4.1420          1    
+Sapato.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Sapato.WaitTime                             3.4205     (Insuf)    3.4205     3.4205          1    
+Sapato.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Sapato.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Sapato.TotalTime                            3.9734     (Insuf)    3.9734     3.9734          1    
+Etiquetagem.Queue.WaitingTime               .07974     (Insuf)    .00000     .35879         61    
+Filtragem.Queue.WaitingTime                 1.4594     (Insuf)    .00000     3.0262         63    
+Empacotamento.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          2    
+Limpeza e Brilho.Queue.WaitingTime          3.6147     (Insuf)    .00000     7.2227          6    
+Juntar sapatos.Queue.WaitingTime            .86278     (Insuf)    .00000     1.9230          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sapato.WIP                                  48.023     (Insuf)    .00000     97.000     97.000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberBusy                              .00000     (Insuf)    .00000     .00000     .00000    
+OpB.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpB.Utilization                             .00000     (Insuf)    .00000     .00000     .00000    
+OpMb.NumberBusy                             .00000     (Insuf)    .00000     .00000     .00000    
+OpMb.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpMb.Utilization                            .00000     (Insuf)    .00000     .00000     .00000    
+OpS.NumberBusy                              .06219     (Insuf)    .00000     1.0000     1.0000    
+OpS.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+OpS.Utilization                             .06219     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberBusy                       .97691     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .97691     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberBusy                       .65706     (Insuf)    .00000     1.0000     1.0000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .65706     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberBusy                       .97568     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .97568     (Insuf)    .00000     1.0000     1.0000    
+Etiquetagem.Queue.NumberInQueue             .60945     (Insuf)    .00000     5.0000     1.0000    
+Filtragem.Queue.NumberInQueue               17.947     (Insuf)    .00000     38.000     35.000    
+Empacotamento.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Limpeza e Brilho.Queue.NumberInQueue        25.823     (Insuf)    .00000     54.000     54.000    
+Juntar sapatos.Queue.NumberInQueue          .84778     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sapato.NumberIn                             100.00    
+Sapato.NumberOut                            3.0000    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+OpB.NumberSeized                            .00000    
+OpB.ScheduledUtilization                    .00000    
+OpMb.NumberSeized                           .00000    
+OpMb.ScheduledUtilization                   .00000    
+OpS.NumberSeized                            2.0000    
+OpS.ScheduledUtilization                    .06219    
+Operador 3.NumberSeized                     6.0000    
+Operador 3.ScheduledUtilization             .97691    
+Operador 2.NumberSeized                     61.000    
+Operador 2.ScheduledUtilization             .65706    
+Operador 1.NumberSeized                     63.000    
+Operador 1.ScheduledUtilization             .97568    
+System.NumberOut                            1.0000    
+
+
+                                      ARENA Simulation Results
+                             a95254@alunos.uminho.pt - License: STUDENT
+
+                                 Output Summary for 20 Replications
+
+Project: Unnamed Project                                             Run execution date :10/23/2020
+Analyst: a95254@alunos.uminho.pt                                     Model revision date:10/23/2020
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Sapato.NumberIn                             96.450     4.8695     76.000     115.00     20
+Sapato.NumberOut                            6.7500     1.0057     3.0000     9.0000     20
+Resource 1.NumberSeized                     .00000     .00000     .00000     .00000     20
+Resource 1.ScheduledUtilization             .00000     .00000     .00000     .00000     20
+OpB.NumberSeized                            1.0500     .35529     .00000     3.0000     20
+OpB.ScheduledUtilization                    .04347     .01401     .00000     .11794     20
+OpMb.NumberSeized                           .55000     .32121     .00000     2.0000     20
+OpMb.ScheduledUtilization                   .02339     .01382     .00000     .08832     20
+OpS.NumberSeized                            .80000     .24484     .00000     2.0000     20
+OpS.ScheduledUtilization                    .02918     .00909     .00000     .06219     20
+Operador 3.NumberSeized                     7.3000     .48256     5.0000     9.0000     20
+Operador 3.ScheduledUtilization             .96639     .01104     .89594     .99500     20
+Operador 2.NumberSeized                     59.150     3.3723     43.000     73.000     20
+Operador 2.ScheduledUtilization             .64045     .04613     .43838     .80787     20
+Operador 1.NumberSeized                     61.100     3.4721     44.000     75.000     20
+Operador 1.ScheduledUtilization             .98787     .01000     .91792     1.0000     20
+System.NumberOut                            2.2500     .33526     1.0000     3.0000     20
+
+Simulation run time: 0.10 minutes.
+Simulation run complete.

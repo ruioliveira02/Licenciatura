@@ -1,0 +1,20 @@
+[RESOURCES]
+Resource 1
+OpB
+OpMb
+OpS
+Operador 3
+Operador 2
+Operador 1
+[VARIABLES]
+Etiquetagem.NumberIn
+Etiquetagem.NumberOut
+Filtragem.NumberIn
+Chegada Sapatos.NumberOut
+Filtragem.NumberOut
+Dispose 1.NumberOut
+Limpeza e Brilho.NumberOut
+Limpeza e Brilho.NumberIn
+Empacotamento.NumberIn
+Juntar sapatos.NumberOut
+Empacotamento.NumberOut

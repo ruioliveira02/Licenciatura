@@ -1,0 +1,18 @@
+[RESOURCES]
+Operador 3
+Operador 2
+Operador 1
+[VARIABLES]
+Chegada Forquetas.NumberOut
+Agrupar Travoes.NumberOut
+Montagem 3.NumberIn
+Montagem 2.NumberIn
+Montagem 1.NumberIn
+Chegada Quadros.NumberOut
+Montagem 3.NumberOut
+Dispose 1.NumberOut
+Chegada Travões.NumberOut
+Montagem 2.NumberOut
+Agrupar Rodas.NumberOut
+Chegada Rodas.NumberOut
+Montagem 1.NumberOut
