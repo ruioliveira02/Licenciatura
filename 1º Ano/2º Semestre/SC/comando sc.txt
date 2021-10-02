@@ -1,0 +1,2 @@
+ssh -c aes256-cbc -oKexAlgorithms=+diffie-hellman-group1-sha1 01a95254@sc.di.uminho.pt
+Pass: 6V1JS01U (Shh!!!!!!!!!!)

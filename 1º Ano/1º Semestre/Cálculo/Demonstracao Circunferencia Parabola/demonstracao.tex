@@ -1,0 +1,60 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\author{Rui Oliveira}
+\title{Demonstração}
+\begin{document}
+\section{Enunciado}
+
+Uma circunferência e uma parábola intersetam-se no máximo em 4 pontos.
+
+\subsection{Demonstração}
+Suponhamos, sem perda de generalidade, que C é uma circunferência de raio r ($r \in \mathbb{R}^+$) centrada na origem do referencial.
+Assim sendo C é do tipo 
+\begin{equation}
+x ^ 2 + y ^ 2 = r ^ 2\\ 
+\end{equation}
+e a parábola é do tipo 
+\begin{equation}
+y = ax^2 + bx + c,  a \neq 0 \\ 
+\end{equation}
+Substituindo $y$ em (1):
+\begin{gather}
+   (ax ^ 2+bx+c)^2 + x^2 = r^2\\
+   (ax ^ 2+bx+c)(ax ^ 2+bx+c) + x^2 - r^2 = 0\\
+   a^2x^4 + abx^3+acx^2+abx^3 + b^2x^2+bcx +acx^2 + bcx + c^2 + x^2 -r^2 = 0\\
+   a^2x^4 + 2abx^3 + (b^2 + 1)x^2 + 2bcx + (c^2 - r^2) = 0
+\end{gather}
+Pelo Teorema Fundamental da Álgebra, este polinómio tem no máximo 4 raízes reais \footnote{Note-se que, mesmo se $a = 0$, o polinómio, sendo do 2º grau, tem no máximo 2 raízes reais, pelo que a afirmação permanece válida nesse caso}, pelo que uma circunferência e uma parábola intersetam-se no máximo 4 vezes.
+
+\newpage
+
+\section{Enunciado}
+
+Se $h > 2\sqrt{2}$ mostre quer algebricamente quer geometricamento que existem exatamente dois pontos cuja distância a (0,0) e (4,4) é igual a $h$
+
+\subsection{Demonstração}
+Seja $A(0,0)$ e $B(4,4)$. Qualquer ponto $P(x,y)$ que obedeça a essa propriedade tem de pertencer à mediatriz do segmento de reta $[AB]$. Ou seja, p obedece à condição\footnote{A mediatriz já tinha sido calculada numa alínea anterior}:
+\begin{equation}
+y=-x+4\\
+\end{equation}
+Por outro lado, P encontra-se a $h$ unidades da origem do referencial, por isso,
+\begin{equation}
+x^2 + y^2 = h^2 \\ 
+\end{equation}
+Substituindo $y$ por $-x+4$ em (8):
+\begin{gather}
+   x^2 + (-x+4)^2 = h^2\\
+   2x^2 -8x+16-h^2 = 0
+\end{gather}
+Consideremos o binómio discriminante de (10):
+
+\begin{equation}
+(-8)^2 -4*2*(16-h^2) = -64 - 2h^2\\
+\end{equation}
+
+Note-se que, $\forall h > 2\sqrt{2}, -64 -2h^2 > 0$, pelo que o polinómio em (10) tem exatamente duas raízes e, assim sendo, existem exatamente dois pontos cuja distância a (0,0) e (4,4) é igual a $h$.
+
+\end{document}
