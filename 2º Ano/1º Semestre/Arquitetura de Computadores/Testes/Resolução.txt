@@ -1,0 +1,38 @@
+1.
+CPI = CPI_CPU + CPI_MEM
+CPI = 2 + CPI_MEM
+
+150*10^-9=2*25/(2*10^-9) + T_MEM
+125=T_MEM
+
+125 = (0.03+0.05*10/25)*25*mp
+mp=100
+
+2. 3ª opção
+
+3. 2ª opção
+
+4. endereços 32 bits
+1024 sets -> 10 bits para set
+Cada set tem 8 linhas
+Cada linha tem 128 blocos -> 7 bits para bloco
+t=32-10-7=15
+
+5.
+
+1:  0001 -> Set 0 / Linha 0 / Bloco 1 / Tag 00 / Cold miss
+13: 1101 -> Set 0 / Linha 1 / Bloco 1 / Tag 11 / Cold miss
+0:  0000 -> Set 0 / Linha 0 / Bloco 0 / Tag 00 / Hit
+6:  0110 -> Set 1 / Linha 0 / Bloco 0 / Tag 01 / Cold miss
+8:  1000 -> Set 0 / Linha 1 / Bloco 0 / Tag 10 / Colisão
+
+6.
+
+for(lin = 0; lin < ALTURA; lin++) {
+    for(col = 0; col < LARGURA; col++) {
+        soma += matriz[lin*LARGURA+col];
+    }
+}
+
+O código original não permite explorar a localidade espacial nos acessos à matriz, dado não acedermos a endereços consecutivos.
+Com esta versão, já passamos a aceder a endereços consecutivos, aproveitando assim melhor a cache, resultando num maior número de hits e uma maior eficiência do programa
