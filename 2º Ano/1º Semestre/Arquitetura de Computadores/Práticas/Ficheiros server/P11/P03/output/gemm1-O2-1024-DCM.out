@@ -1,0 +1,31 @@
+Square matrices are 1024 x 1024 (1048576 elements)!
+
+Setting up PAPI... PAPI has 11 counters
+done!
+Initializing matrices...done!
+Code version 1: Unoptimized algorithm
+>>>>
+	Measurement loop 0 out of 3
+Warming up caches...done!
+run=0 ...done!	>>>>
+	Measurement loop 1 out of 3
+Warming up caches...done!
+run=0 ...done!	>>>>
+	Measurement loop 2 out of 3
+Warming up caches...done!
+run=0 ...done!	>>>>
+	Measurement loop 3 out of 3
+Warming up caches...done!
+run=0 ...done!	
+
+Wall clock time: 8447057 usecs
+PAPI_TOT_CYC = 26139325934
+PAPI_TOT_INS = 9672083595
+PAPI_SR_INS = 1073741877
+PAPI_LD_INS = 3221521124
+PAPI_L1_DCM = 3365802392
+CPI = 2.7; CPE = 24928.4
+Verification: generating the reference solution...done!
+comparing reference solution with C...e_sum: 0.000000  OK!
+
+That's all, folks

@@ -1,0 +1,35 @@
+Using 
+16
+ threads
+Square matrices are 1024 x 1024 (1048576 elements)!
+
+Setting up PAPI...done!
+Initializing matrices...done!
+Code version 11: Compiler vectorization plus OpenMP
+Warming up caches...done!
+run=0 ...done!	run=1 ...done!	run=2 ...done!		Texec: 24 msecs
+-- THREAD 0 :	PAPI_TOT_CYC = 71.741 M	PAPI_TOT_INS = 101.648 M
+-- THREAD 1 :	PAPI_TOT_CYC = 47.805 M	PAPI_TOT_INS = 103.748 M
+-- THREAD 2 :	PAPI_TOT_CYC = 47.562 M	PAPI_TOT_INS = 103.748 M
+-- THREAD 3 :	PAPI_TOT_CYC = 47.787 M	PAPI_TOT_INS = 103.748 M
+-- THREAD 4 :	PAPI_TOT_CYC = 47.110 M	PAPI_TOT_INS = 103.748 M
+-- THREAD 5 :	PAPI_TOT_CYC = 47.390 M	PAPI_TOT_INS = 103.748 M
+-- THREAD 6 :	PAPI_TOT_CYC = 46.993 M	PAPI_TOT_INS = 103.748 M
+-- THREAD 7 :	PAPI_TOT_CYC = 47.512 M	PAPI_TOT_INS = 103.748 M
+-- THREAD 8 :	PAPI_TOT_CYC = 47.598 M	PAPI_TOT_INS = 103.748 M
+-- THREAD 9 :	PAPI_TOT_CYC = 47.334 M	PAPI_TOT_INS = 103.748 M
+-- THREAD 10 :	PAPI_TOT_CYC = 71.746 M	PAPI_TOT_INS = 101.648 M
+-- THREAD 11 :	PAPI_TOT_CYC = 47.111 M	PAPI_TOT_INS = 103.748 M
+-- THREAD 12 :	PAPI_TOT_CYC = 46.892 M	PAPI_TOT_INS = 103.748 M
+-- THREAD 13 :	PAPI_TOT_CYC = 46.957 M	PAPI_TOT_INS = 103.748 M
+-- THREAD 14 :	PAPI_TOT_CYC = 47.279 M	PAPI_TOT_INS = 103.748 M
+-- THREAD 15 :	PAPI_TOT_CYC = 47.411 M	PAPI_TOT_INS = 103.748 M
+
+Total instructions = 1656 M
+Perceived clock cycles = 72 M
+Perceived CPI = 0.043
+
+Verification: generating the reference solution...done!
+comparing reference solution with C...e_sum: 0.000000  OK!
+
+That's all, folks

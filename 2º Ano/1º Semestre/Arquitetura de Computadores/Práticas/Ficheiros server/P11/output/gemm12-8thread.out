@@ -1,0 +1,27 @@
+Using 
+8
+ threads
+Square matrices are 1024 x 1024 (1048576 elements)!
+
+Setting up PAPI...done!
+Initializing matrices...done!
+Code version 12: vectorization intrinsics and OpenMP
+Warming up caches...done!
+run=0 ...done!	run=1 ...done!	run=2 ...done!		Texec: 27 msecs
+-- THREAD 0 :	PAPI_TOT_CYC = 82.038 M	PAPI_TOT_INS = 103.148 M
+-- THREAD 1 :	PAPI_TOT_CYC = 82.105 M	PAPI_TOT_INS = 103.025 M
+-- THREAD 2 :	PAPI_TOT_CYC = 82.129 M	PAPI_TOT_INS = 103.281 M
+-- THREAD 3 :	PAPI_TOT_CYC = 82.055 M	PAPI_TOT_INS = 103.122 M
+-- THREAD 4 :	PAPI_TOT_CYC = 82.095 M	PAPI_TOT_INS = 103.421 M
+-- THREAD 5 :	PAPI_TOT_CYC = 82.085 M	PAPI_TOT_INS = 103.268 M
+-- THREAD 6 :	PAPI_TOT_CYC = 82.205 M	PAPI_TOT_INS = 103.472 M
+-- THREAD 7 :	PAPI_TOT_CYC = 82.060 M	PAPI_TOT_INS = 103.259 M
+
+Total instructions = 826 M
+Perceived clock cycles = 82 M
+Perceived CPI = 0.100
+
+Verification: generating the reference solution...done!
+comparing reference solution with C...e_sum: 0.000000  OK!
+
+That's all, folks

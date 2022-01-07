@@ -1,0 +1,18 @@
+Square matrices are 1024 x 1024 (1048576 elements)!
+
+Setting up PAPI...done!
+Initializing matrices...done!
+Code version 7: Compiler vectorization and UNROLL
+Warming up caches...done!
+run=0 ...done!	run=1 ...done!	run=2 ...done!	
+
+Texec: 205 msecs
+PAPI_TOT_CYC = 614.198 M
+PAPI_TOT_INS = 1271.934 M
+PAPI_VEC_SP = 2147.502 M
+PAPI_L1_DCM = 67.218 M
+CPI = 0.5
+Verification: generating the reference solution...done!
+comparing reference solution with C...e_sum: 0.000000  OK!
+
+That's all, folks
