@@ -1,0 +1,31 @@
+Square matrices are 1024 x 1024 (1048576 elements)!
+
+Setting up PAPI... PAPI has 11 counters
+done!
+Initializing matrices...done!
+Code version 3: Using a local for aik
+>>>>
+	Measurement loop 0 out of 3
+Warming up caches...done!
+run=0 ...done!	>>>>
+	Measurement loop 1 out of 3
+Warming up caches...done!
+run=0 ...done!	>>>>
+	Measurement loop 2 out of 3
+Warming up caches...done!
+run=0 ...done!	>>>>
+	Measurement loop 3 out of 3
+Warming up caches...done!
+run=0 ...done!	
+
+Wall clock time: 711254 usecs
+PAPI_TOT_CYC = 2199738541
+PAPI_TOT_INS = 6449802796
+PAPI_SR_INS = 1073741874
+PAPI_LD_INS = 2148629661
+PAPI_L1_DCM = 67263344
+CPI = 0.3; CPE = 2097.8
+Verification: generating the reference solution...done!
+comparing reference solution with C...e_sum: 0.000000  OK!
+
+That's all, folks

@@ -1,0 +1,14 @@
+Arrays have 268435456 elements!
+
+Setting up PAPI...done!
+Initializing array...done!
+Code version 3
+Warming up caches...done!
+run=0 ...done!	run=1 ...done!	run=2 ...done!	
+
+Wall clock time: 221 msecs
+PAPI_TOT_CYC = 683 M
+PAPI_TOT_INS = 671 M
+CPI = 1.0; CPE = 2.5
+
+That's all, folks
