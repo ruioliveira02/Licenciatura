@@ -9,6 +9,6 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-
+        System.out.println(ficha1.factorial(5000));
     }
 }
