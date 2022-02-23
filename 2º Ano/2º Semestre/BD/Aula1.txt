@@ -1,0 +1,47 @@
+Etapa 1: Definição de Sistema
+1- Contextualização
+
+Falta de automação na gestão de consultas e pacientes de nutrição. 
+
+2- Fundamentação
+
+A introdução de uma base de dados pode permitir ao nutricionista gastar menos tempo por consulta a pedir dados ao paciente. A base de dados pode também facilitar a consulta de dados de um paciente fora da consulta e do seu respetivo plano alimentar. Poderá permitir também o mais fácil acompanhamento da evolução do paciente, sobretudo ao nível das medições.
+
+3- Objetivos
+
+Melhorar a gestão de
+
+-Consultas
+-Pacientes
+-Planos alimentares
+-Medições
+
+Permitir ao nutricionista acompanhar a evolução dos seus pacientes, facilitando a consulta dos seus dados pessoais / medições / planos alimentares. Permitir saber quantas primeiras consultas foram realizadas num mês / ano / dia / semana, o motivo de os pacientes estarem na consulta (atletas de alto rendimento, perda de peso, distúrbios alimentares, .etc).
+
+Controlo de faturação
+
+Obter estatísticas sobre os planos com melhores resultados
+
+4- Viabilidade
+
+Se conseguirmos manter os clientes por mais consultas, sugerir planos com melhores resultados, o lucro aumenta, o que chega para cobrir o custo de implementação do software
+
+5- Recursos
+
+1 Servidor
+
+Software (SGBD e Aplicações)
+
+Clientes/Nutricionistas
+
+6- Equipa de trabalho
+
+Jovens engenheiros (equipa jovem e dinâmica) de bases de dados
+
+7- Plano de execução
+
+Cry. Code. Repeat.
+
+8- Revisão e aprovação
+
+I have investigated myself and found no wrongdoing

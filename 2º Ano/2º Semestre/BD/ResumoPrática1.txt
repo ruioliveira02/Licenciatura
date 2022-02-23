@@ -1,0 +1,16 @@
+Etapa 1: Definição de Sistema
+1- Contextualização
+2- Fundamentação
+3- Objetivos
+4- Viabilidade
+5- Recursos
+6- Equipa de trabalho
+7- Plano de execução
+8- Revisão e aprovação
+
+Etapa 2: Definição de Requisitos
+Etapa 3: Modelação Conceptual
+Etapa 4: Modelação Lógica
+Etapa 5: Implementação Física
+Etapa 6: Exploração
+Etapa 7: Monitorização

@@ -67,7 +67,7 @@ ErrorCode updateValue(char* fileName, void* data, size_t size, int (*compareFunc
             lseek(fileDescriptor, -size, SEEK_CUR);
 
             //Overwrite value
-            write(fileDescriptor, buffer, size);
+            write(fileDescriptor, data, size);
 
             //Only allow 1 value to change
             break;
