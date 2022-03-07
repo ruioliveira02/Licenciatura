@@ -69,11 +69,11 @@ public class LinhaEncomenda {
     }
 
     public double calculaValorLinhaEnc() {
-        return Math.round((double)price * (1.0 + (double)tax / 100.0) * (1.0 - (double)discount / 100) * 100.0) / 100.0;
+        return Math.round((double)orderedAmount * (double)price * (1.0 + (double)tax / 100.0) * (1.0 - (double)discount / 100) * 100.0) / 100.0;
     }
 
     public double calculaValorDesconto() {
-        return (discount / 100.0) * (double)price * (1.0 + (double)tax / 100.0);
+        return (double)orderedAmount * (discount / 100.0) * (double)price * (1.0 + (double)tax / 100.0);
     }
 
     public String toString() {
@@ -85,6 +85,9 @@ public class LinhaEncomenda {
         stringBuilder.append("Descrição: ");
         stringBuilder.append(description);
         stringBuilder.append("\n");
+	stringBuilder.append("Quantidade: ");
+	stringBuilder.append(orderedAmount);
+	stringBuilder.append("\n");
         stringBuilder.append("Valor em linha: ");
         stringBuilder.append(calculaValorLinhaEnc());
         stringBuilder.append("\n");
