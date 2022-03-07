@@ -1,0 +1,83 @@
+3 tipos de requisitos:
+-Descrição
+-Controlo
+-Manipulação
+
+
+Tamanho Inicial da BD:
+-há inicialmente 100 clientes, que realizam em média 8 consultas / ano
+
+Taxa de crescimento da BD:
+-Cerca de 20 clientes são adicionados mensalmente à base de dados
+
+Número médio de pesquisas dos vários tipos de registos:
+-Pesquisa de detalhes de uma consulta: 
+
+
+
+=========================================================================
+
+REQUISITOS DE DESCRIÇÃO:
+
+Nutricionista será o utilizador primário do sistema e será inserido pelos vendedores / administradores da base de dados. A informação a si associada inclui apenas nome, email, local de trabalho.
+
+Paciente reoresentará o cliente do nutricionista no sistema, estando portanto sempre associado a um só nutricionista. A informação associada ao paciente inclui u, identificador único, o nome, a data de nascimento, o email e o contacto telefónico
+
+Cada paciente poderá realizar uma ou mais consultas com o nutricionista. A informação de uma consulta inclui data, o paciente, referência ao nutricionista, indicação do estado de pagamento, data/hora de início, duração em minutos
+
+Etiquetas
+
+O paciente poderá ter uma ou mais etiquetas representativas do seu perfil. A informação associada a uma etiqueta inclui uma descrição única
+
+
+
+=========================================================================
+
+
+
+
+
+
+REQUISITOS DE DESCRIÇÃO
+
+
+Informações do paciente:
+
+-Nome
+-Email
+-Idade / Data nascimento
+-Contacto telefónico
+-Tipo de paciente
+-Planos alimentares associados ao paciente
+-Sucesso
+
+Informação da consulta:
+-Se é primeira consulta ou não
+-Data / hora
+-Nutricionista
+-Paciente
+-Notas
+
+
+Informação de planos alimentares:
+
+-Nome
+-Descrição
+-Refeições a fazer durante a semana / lista de refeições
+
+
+REQUISITOS DE CONTROLO:
+
+O nutricionista deve ter acesso:
+-Aos planos de nutrições
+-Aos dados dos SEUS pacientes
+
+REQUISITOS DE MANIPULAÇÃO:
+
+O nutricionista tem de conseguir:
+
+-atribuir planos alimentares a pacientes seu
+-ver evolução de medições dos seus pacientes
+-registar as medições / notas das consultas
+-adicionar pacientes novos em primeiras consultas
+-alterar tipo de paciente (grávida passar a nova mãe)
