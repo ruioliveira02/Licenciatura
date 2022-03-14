@@ -12,12 +12,20 @@ public class LinhaEncomenda {
     private int discount;
 
     public LinhaEncomenda() {
-        product = "";
-        description = "";
-        price = 0;
-        orderedAmount = 0;
-        tax = 0;
-        discount = 0;
+        this("", "", 0,0,0,0);
+    }
+
+    public LinhaEncomenda(LinhaEncomenda le) {
+        this(le.product, le.description, le.price, le.orderedAmount, le.tax, le.discount);
+    }
+
+    public LinhaEncomenda(String product, String description, int price, int orderedAmount, int tax, int discount) {
+        this.product = product;
+        this.description = description;
+        this.price = price;
+        this.orderedAmount = orderedAmount;
+        this.tax = tax;
+        this.discount = discount;
     }
 
     public int getDiscount() {
@@ -85,9 +93,9 @@ public class LinhaEncomenda {
         stringBuilder.append("Descrição: ");
         stringBuilder.append(description);
         stringBuilder.append("\n");
-	stringBuilder.append("Quantidade: ");
-	stringBuilder.append(orderedAmount);
-	stringBuilder.append("\n");
+        stringBuilder.append("Quantidade: ");
+        stringBuilder.append(orderedAmount);
+        stringBuilder.append("\n");
         stringBuilder.append("Valor em linha: ");
         stringBuilder.append(calculaValorLinhaEnc());
         stringBuilder.append("\n");
@@ -95,5 +103,22 @@ public class LinhaEncomenda {
         stringBuilder.append(calculaValorDesconto());
 
         return stringBuilder.toString();
+    }
+
+    public boolean equals(Object o) {
+        if(o == this)
+            return true;
+
+        if(o == null || o.getClass() != this.getClass())
+            return false;
+
+        LinhaEncomenda le = (LinhaEncomenda)o;
+
+        return le.discount == this.discount && le.orderedAmount == this.orderedAmount
+                && le.description == this.description && le.price == this.price && this.product == le.product && this.tax == le.tax;
+    }
+
+    public Object clone() {
+        return (Object)new LinhaEncomenda(this);
     }
 }
