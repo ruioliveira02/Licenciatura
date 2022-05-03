@@ -1,3 +1,4 @@
+package com.example.demo;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -5,7 +6,7 @@ import javafx.scene.layout.VBox;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class HelloApplication extends Application {
 
     public static void main(String[] args) {
         launch(args);
